@@ -6,8 +6,7 @@ function Bestsellers(){
         <div id = "bestsellersSection">
             <div className = "bestSellersBg">
                 <div className = "bestSellersContent">
-                    <h1 className = "bestSellersTitle">Best Sellers</h1>
-                    <p className = "bestSellersSubtext">Our customers can't get enough of these dishes!</p>
+                    <h1 className = "bestSellersTitle">Most Popular Items</h1>
                 </div>
 
                 <div className = "BestsellersItems">
@@ -17,9 +16,9 @@ function Bestsellers(){
                     <ItemBox />
                     <ItemBox />
                     <ItemBox />
-                    <button>-</button>
                 </div>
             </div>
+            <button className = "seeMoreBtn">See More</button>
         </div>
     );
 }

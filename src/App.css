@@ -38,17 +38,53 @@
   }
 }
 
-#heroSection{
+#heroSection{ 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#navbar{
+  width: 100%;
+  height: 10rem;
+  background: linear-gradient(90deg, #ff3333, #ff8080);
+}
+
+.navbarContent{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 2rem 0 0 0;
+}
+
+#logo{
+  width: 5rem; 
+  height: 5rem;
+  background-color: #44ff33;
+}
+
+#links{
+  width: 45rem; 
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productsLink, .aboutLink, .contactLink{
+  display: inline-block;
+  margin: 0 2rem 0 2rem;
+  color: #ffffff;
+}
+
+.productsLink:hover, .aboutLink:hover, .contactLink:hover{
+  cursor: pointer;
+}
+
 .heroBg{
-  width: 95%;
-  height: 35rem;
-  background: linear-gradient(75deg, #ff3333, #ff8080);
-  border-radius: 1rem;
+  width: 100%;
+  height: 40rem;
+  background: linear-gradient(90deg, #ff3333, #ff8080);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -68,6 +104,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 0 10rem 0;
 }
 
 .rightHeroContent{
@@ -99,31 +136,48 @@
   background-color: #ffadad;
 }
 
-#bestsellersSection{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem 0 0 0;
-  margin: 5rem 0 0 0;
+.exploreStoryBtn{
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #fc6262;
+  color: #ffffff;
+  text-align: left;
+  padding: 0 0 0 1rem;
+  margin: 2rem 0 0 0;
+}
+
+.exploreStoryBtn:hover{
+  cursor: pointer;
+}
+
+.exploreStoryBtn:active{
+  color: #fc6262;
+  background-color: #ffe6e6;
+}
+
+.aboutTitle{
+  color: #fc6262;
 }
 
 .aboutBlocks{
   width: 100%;
   height: 40rem;
-  background-color: #61dafb;
   display: flex;
 }
 
 .blockLeft{
-  width: 50%;
+  width: 30%;
   height: 100%;
-  background-color: #ff3333;
 }
 
 .blockRight{
-  width: 50%;
+  width: 70%;
   height: 100%;
-  background-color: #ffadad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutContent{
@@ -135,43 +189,57 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  background: linear-gradient(-45deg,#ffffff 47%, #fc6262 47%);
+  width: 100%;
+  height: 50rem;
 }
 
 .servicesBlocks{
   width: 90%;
   height: 40rem;
-  background-color: #ff3333;
   display: flex;
+}
+
+.serTitleContent{
+  color: #ffffff;
 }
 
 .ser1{
   width: 40%;
   height: 100%;
-  background-color: aquamarine;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 }
 
 .ser2{
   width: 40%;
   height: 100%;
-  background-color:antiquewhite;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 }
 
 .ser3{
   width: 40%;
   height: 100%;
-  background-color:blueviolet;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.ser1content, .ser2content, .ser3content{
+.ser4{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ser1content, .ser2content, .ser3content, .ser4content{
   width: 10rem;
 }
 
@@ -237,16 +305,37 @@
   background-color: #b36af8;
 }
 
-#navbar{
-  width: 100%;
-  height: 10rem;
-  background-color: #30c154;
+#bestsellersSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 0 0;
+  margin: 5rem 0 0 0;
+  flex-direction: column;
 }
 
 .bestSellersBg{
   width: 85%;
-  height: 35rem;
+  height: 30rem;
   border-radius: 1rem;
+}
+
+.seeMoreBtn{
+  width: 7rem;
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #fc6262;
+  color: #ffffff;
+}
+
+.seeMoreBtn:hover{
+  cursor: pointer;
+}
+
+.seeMoreBtn:active{
+  color: #fc6262;
+  background-color: #ffe6e6;
 }
 
 .bestSellersContent{
@@ -274,5 +363,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bestSellersTitle{
+  margin: 1rem;
 }
 
