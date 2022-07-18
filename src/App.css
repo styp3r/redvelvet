@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#heroSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroBg{
+  width: 95%;
+  height: 35rem;
+  background: linear-gradient(75deg, #ff3333, #ff8080);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.leftHero{
+  width: 45%;
+  height: 95%;
+  
+}
+
+.rightHero{
+  position: relative;
+  text-align: left;
+  width: 45%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightHeroContent{
+  width: 30rem;
+}
+
+.rightHeroTitle, .rightHeroSubtext{
+  color: #ffffff;
+}
+
+.exploreMenuBtn{
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  color: #ffadad;
+  text-align: left;
+  padding: 0 0 0 1rem;
+  margin: 2rem 0 0 0;
+}
+
+.exploreMenuBtn:hover{
+  cursor: pointer;
+}
+
+.exploreMenuBtn:active{
+  color: #ffffff;
+  background-color: #ffadad;
+}
+
+#bestsellersSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 0 0;
+  margin: 5rem 0 0 0;
+}
+
+.aboutBlocks{
+  width: 100%;
+  height: 40rem;
+  background-color: #61dafb;
+  display: flex;
+}
+
+.blockLeft{
+  width: 50%;
+  height: 100%;
+  background-color: #ff3333;
+}
+
+.blockRight{
+  width: 50%;
+  height: 100%;
+  background-color: #ffadad;
+}
+
+.aboutContent{
+  width: 30rem;
+  text-align: left;
+}
+
+#servicesSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesBlocks{
+  width: 90%;
+  height: 40rem;
+  background-color: #ff3333;
+  display: flex;
+}
+
+.ser1{
+  width: 40%;
+  height: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ser2{
+  width: 40%;
+  height: 100%;
+  background-color:antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ser3{
+  width: 40%;
+  height: 100%;
+  background-color:blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ser1content, .ser2content, .ser3content{
+  width: 10rem;
+}
+
+.platformsBlocks{
+  width: 100%;
+  height: 40rem;
+  background-color: #61dafb;
+  display: flex;
+}
+
+.platLeft{
+  width: 50%;
+  height: 100%;
+  background-color: #ff3333;
+}
+
+.platRight{
+  width: 50%;
+  height: 100%;
+  background-color: #ffadad;
+}
+
+.platContent{
+  width: 30rem;
+  text-align: left;
+}
+
+.reviewsBlocks{
+  width: 100%;
+  height: 40rem;
+  background-color: #61dafb;
+  display: flex;
+}
+
+.revLeft{
+  width: 50%;
+  height: 100%;
+  background-color: #30c154;
+}
+
+.revRight{
+  width: 50%;
+  height: 100%;
+  background-color: #6ae3f8;
+}
+
+.footerBlocks{
+  width: 100%;
+  height: 15rem;
+  background-color: #61dafb;
+  display: flex;
+}
+
+.footerLeft{
+  width: 50%;
+  height: 100%;
+  background-color: #a6c130;
+}
+
+.footerRight{
+  width: 50%;
+  height: 100%;
+  background-color: #b36af8;
+}
+
+#navbar{
+  width: 100%;
+  height: 10rem;
+  background-color: #30c154;
+}
+
+.bestSellersBg{
+  width: 85%;
+  height: 35rem;
+  border-radius: 1rem;
+}
+
+.bestSellersContent{
+  text-align: left;
+  margin: 3rem 0 5rem 0;
+}
+
+#bestSellingItemBox{
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  width: 15rem;
+  height: 15rem;
+  background-color: #ebebeb;
+  border-radius: 2rem;
+  display: inline-block;
+  margin: 1rem;
+}
+
+#bestSellingItemBox:hover{
+  cursor: pointer;
+}
+
+.BestsellersItems{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
