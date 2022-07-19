@@ -11,7 +11,14 @@ function Reviews() {
         }
     }
 
+    function dispRevName(rn){
+        if(rn.id === rev){
+            return (rn.name);
+        }
+    }
+
     function handleClick(){
+        //add animation when showing next review
         if(rev === 3){
             setRev(0);
         }
@@ -24,11 +31,18 @@ function Reviews() {
         <div id="reviews">
             <div className="reviewsBlocks">
                 <div className="revLeft">
-                    <h1>This is what Our Customers Say</h1>
+                    <div className = "revTitleBlock">
+                        <h3 className = "reviewsTitle">Testimonials</h3>
+                        <h1>This is what Our Customers Say</h1>
+                    </div>
                     <div className = "reviewBox">
-                        <h3>Name</h3>
+                        <h3>{ReviewsList.map(dispRevName)}</h3>
                         <p>{ReviewsList.map(dispRev)}</p>
-                        <button onClick={handleClick}>Next</button>
+                        <button className = "revNextBtn" onClick={handleClick}>
+                            <div className = "alArrowDiv">
+                                <span class="material-symbols-outlined">chevron_right</span>
+                            </div>
+                        </button>
                     </div>
                 </div>
                 <div className="revRight"></div>

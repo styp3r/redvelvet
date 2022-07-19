@@ -249,6 +249,10 @@
   display: flex;
 }
 
+.platformsTitle{
+  color: #fc6262;
+}
+
 .platLeft{
   width: 60%;
   height: 100%;
@@ -274,14 +278,20 @@
 .reviewsBlocks{
   width: 100%;
   height: 40rem;
-  background-color: #61dafb;
   display: flex;
+}
+
+.revTitleBlock{
+  text-align: left;
+}
+
+.reviewsTitle{
+  color: #fc6262;
 }
 
 .revLeft{
   width: 40%;
   height: 100%;
-  background-color: #30c154;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,12 +301,35 @@
 .revRight{
   width: 60%;
   height: 100%;
-  background-color: #6ae3f8;
 }
 
 .reviewBox{
   width: 20rem;
   margin: 5rem 0 10rem 0;
+}
+
+.revNextBtn{
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 100%;
+  background-color: #fc6262;
+  color: #ffffff;
+}
+
+.alArrowDiv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.revNextBtn:hover{
+  cursor: pointer;
+}
+
+.revNextBtn:active{
+  color: #fc6262;
+  background-color: #ffe6e6;
 }
 
 .footerBlocks{
