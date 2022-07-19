@@ -246,20 +246,24 @@
 .platformsBlocks{
   width: 100%;
   height: 40rem;
-  background-color: #61dafb;
   display: flex;
 }
 
 .platLeft{
-  width: 50%;
+  width: 60%;
   height: 100%;
-  background-color: #ff3333;
 }
 
 .platRight{
-  width: 50%;
+  width: 40%;
   height: 100%;
-  background-color: #ffadad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#platformsSection{
+  margin: 10rem 0 0 0;
 }
 
 .platContent{
@@ -275,15 +279,24 @@
 }
 
 .revLeft{
-  width: 50%;
+  width: 40%;
   height: 100%;
   background-color: #30c154;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .revRight{
-  width: 50%;
+  width: 60%;
   height: 100%;
   background-color: #6ae3f8;
+}
+
+.reviewBox{
+  width: 20rem;
+  margin: 5rem 0 10rem 0;
 }
 
 .footerBlocks{
