@@ -1,10 +1,9 @@
 import React from 'react';
-import Samosa from '../images/samosa.jpg';
 
-function BestSellingItemBox(){
+function BestSellingItemBox(props){
     return (
         <div id = "bestSellingItemBox">
-            
+            <img className = "bestSellerBoxImg" src = {props.img} />
         </div>
     );
 }

@@ -7,7 +7,8 @@ const items = [
         price: "20",
         qty: "1 Piece",
         bestseller: true,
-        img: IMAGES.samosa
+        img: IMAGES.samosa,
+        category: "snacks"
     },
     {
         id: 1,
@@ -15,7 +16,8 @@ const items = [
         price: "21",
         qty: "1 Piece",
         bestseller: true,
-        img: IMAGES.samosa
+        img: IMAGES.samosa,
+        category: "snacks"
     },
     {
         id: 2,
@@ -23,7 +25,8 @@ const items = [
         price: "222",
         qty: "1 Piece",
         bestseller: true,
-        img: IMAGES.samosa
+        img: IMAGES.samosa,
+        category: "snacks"
     },
     {
         id: 3,
@@ -31,7 +34,8 @@ const items = [
         price: "23",
         qty: "1 Piece",
         bestseller: true,
-        img: IMAGES.samosa
+        img: IMAGES.samosa,
+        category: "snacks"
     },
     {
         id: 4,
@@ -39,7 +43,8 @@ const items = [
         price: "242",
         qty: "1 Piece",
         bestseller: true,
-        img: IMAGES.samosa
+        img: IMAGES.samosa,
+        category: "snacks"
     },
 ];
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import ItemBox from './BestSellingItemBox';
 import { Link } from "react-router-dom";
+import IMAGES from './ImagesImport';
 
 function Bestsellers(){
     return (
@@ -12,11 +13,11 @@ function Bestsellers(){
 
                 <div className = "BestsellersItems">
                     {/* Map function to display top 5 best seeling items from the menu*/}
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
-                    <ItemBox />
+                    <ItemBox img = {IMAGES.samosa}/>
+                    <ItemBox img = {IMAGES.samosa}/>
+                    <ItemBox img = {IMAGES.samosa}/>
+                    <ItemBox img = {IMAGES.samosa}/>
+                    <ItemBox img = {IMAGES.samosa}/>
                 </div>
             </div>
             <Link to = "products"><button className = "seeMoreBtn">See More</button></Link>
