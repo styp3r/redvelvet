@@ -1,5 +1,6 @@
 import React from 'react';
 import ItemBox from './BestSellingItemBox';
+import { Link } from "react-router-dom";
 
 function Bestsellers(){
     return (
@@ -18,7 +19,7 @@ function Bestsellers(){
                     <ItemBox />
                 </div>
             </div>
-            <button className = "seeMoreBtn">See More</button>
+            <Link to = "products"><button className = "seeMoreBtn">See More</button></Link>
         </div>
     );
 }

@@ -8,9 +8,9 @@ function Navbar(){
             <div className = "navbarContent">
                 <Link to = "/"><div id = "logo"></div></Link>
                 <div id = "links">
-                    <Link to = "productsPage"><p className = "productsLink">Products</p></Link>
-                    <Link to = "aboutPage"><p className = "aboutLink">About</p></Link>
-                    <Link to = "contactPage"><p className = "contactLink">Contact</p></Link>
+                    <Link to = "products"><p className = "productsLink">Products</p></Link>
+                    <Link to = "about"><p className = "aboutLink">About</p></Link>
+                    <Link to = "contact"><p className = "contactLink">Contact</p></Link>
                 </div>
             </div>
             </div>
