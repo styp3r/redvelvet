@@ -1,11 +1,22 @@
 import React from 'react';
-import IMAGES from '../components/ImagesImport';
+import ProductBox from './ProductBox';
+import ItemList from './ItemList';
 
-function ProductsPage(){
+function ProductsPage() {
+
+    function dispItems(item) {
+        return <ProductBox key={item.id} img={item.img} price={item.price} name={item.name} qty={item.qty} />
+    }
+
     return (
-        <div>
-            <h1>Products Page</h1>
-            <img src = {IMAGES.samosa} alt = "" width = "200" height = "200" />
+        <div id="productDisp">
+            <h1 className = "prodDispTitle">Products Page</h1>
+            <div className = "prodDispBlock">
+                <div className="productLeft">hello</div>
+                <div className="productRight">
+                    {ItemList.map(dispItems)}
+                </div>
+            </div>
         </div>
     );
 }

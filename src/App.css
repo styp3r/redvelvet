@@ -125,6 +125,7 @@
   text-align: left;
   padding: 0 0 0 1rem;
   margin: 2rem 0 0 0;
+  box-shadow: 0 3px 12px 0.1px #944a4a;
 }
 
 .exploreMenuBtn:hover{
@@ -146,6 +147,7 @@
   text-align: left;
   padding: 0 0 0 1rem;
   margin: 2rem 0 0 0;
+  box-shadow: 0 3px 12px 0.1px #adadad;
 }
 
 .exploreStoryBtn:hover{
@@ -315,6 +317,7 @@
   border-radius: 100%;
   background-color: #fc6262;
   color: #ffffff;
+  box-shadow: 0 3px 12px 0.1px #adadad;
 }
 
 .alArrowDiv{
@@ -371,6 +374,7 @@
   border-radius: 1rem;
   background-color: #fc6262;
   color: #ffffff;
+  box-shadow: 0 3px 12px 0.1px #adadad;
 }
 
 .seeMoreBtn:hover{
@@ -445,3 +449,56 @@
   margin: 0 2rem 0 2rem;
 }
 
+#productDisp{
+  display: flex;
+  flex-direction: column;
+}
+
+.prodDispBlock{
+  display: flex;
+  flex-direction: row;
+  padding: 0 2rem 0 2rem;
+}
+
+.productLeft{
+  width: 20%;
+}
+
+.productRight{
+  text-align: left;
+  width: 80%;
+}
+
+#productBox{
+  width: 12rem;
+  height: 16rem;
+  overflow: hidden;
+  box-shadow: 0 3px 12px 0.1px #adadad;
+  border-radius: 1rem;
+  display: inline-block;
+  margin: 2rem;
+  text-align: left;
+}
+
+.itemBoxText{
+  margin: -1rem 0 0 1.5rem;
+}
+
+.itemBoxImg{
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.itemBoxQty{
+  margin: 0 0 0 1rem;
+  color: #898989;
+}
+
+.itemBoxPrice{
+  display: inline-block;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #ff3333, #ff8080);
+  color: #ffffff;
+}
