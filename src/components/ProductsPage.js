@@ -1,17 +1,26 @@
-import React from 'react';
+import React , {useState} from 'react';
 import ProductBox from './ProductBox';
 import ItemList from './ItemList';
-import CategoryList from './CategoryList';
-import CategoryLinkBox from './CategoryLinkBox';
 
 function ProductsPage() {
 
+    const [currentItem, setcurrentItem] = useState("snacks");
+
     function dispItems(item) {
-        return <ProductBox key={item.id} img={item.img} price={item.price} name={item.name} qty={item.qty} />
+        return <ProductBox current = {currentItem} key={item.id} img={item.img} price={item.price} name={item.name} qty={item.qty} category={item.category} />
     }
 
-    function dispCategory(cat){
-        return <CategoryLinkBox key = {cat.id} id = {cat.id} name = {cat.name} class = {cat.class} />
+    function handleClick(event){
+        setcurrentItem(event.target.id);
+
+        document.getElementById("sweets").classList.remove("catNameSelected");
+        document.getElementById("chaats").classList.remove("catNameSelected");
+        document.getElementById("snacks").classList.remove("catNameSelected");
+        document.getElementById("parathas").classList.remove("catNameSelected");
+        document.getElementById("combos").classList.remove("catNameSelected");
+        document.getElementById("beverages").classList.remove("catNameSelected");
+
+        document.getElementById(event.target.id).classList.add("catNameSelected");
     }
 
     return (
@@ -20,7 +29,12 @@ function ProductsPage() {
             <div className="prodDispBlock">
                 <div className="productLeft">
                     <div className="categoryPane">
-                        {CategoryList.map(dispCategory)}
+                        <p onClick = {handleClick} id = "sweets" className = "categoryLink">Sweets</p>
+                        <p onClick = {handleClick} id = "chaats" className = "categoryLink">Chaats</p>
+                        <p onClick = {handleClick} id = "snacks" className = "categoryLink">Snacks</p>
+                        <p onClick = {handleClick} id = "parathas" className = "categoryLink">Parathas</p>
+                        <p onClick = {handleClick} id = "combos" className = "categoryLink">Combos</p>
+                        <p onClick = {handleClick} id = "beverages" className = "categoryLink">Beverages</p>
                     </div>
                 </div>
                 <div className="productRight">

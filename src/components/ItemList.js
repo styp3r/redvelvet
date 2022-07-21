@@ -8,7 +8,7 @@ const items = [
         qty: "1 Piece",
         bestseller: true,
         img: IMAGES.samosa,
-        category: "snacks"
+        category: "sweets"
     },
     {
         id: 1,
@@ -40,6 +40,24 @@ const items = [
     {
         id: 4,
         name: "Samosa4",
+        price: "242",
+        qty: "1 Piece",
+        bestseller: true,
+        img: IMAGES.samosa,
+        category: "snacks"
+    },
+    {
+        id: 5,
+        name: "Samosa5",
+        price: "242",
+        qty: "1 Piece",
+        bestseller: true,
+        img: IMAGES.samosa,
+        category: "beverages"
+    },
+    {
+        id: 6,
+        name: "Samosa6",
         price: "242",
         qty: "1 Piece",
         bestseller: true,
