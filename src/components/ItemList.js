@@ -3,7 +3,7 @@ import IMAGES from './ImagesImport'
 const items = [
     {
         id: 0,
-        name: "Samosa",
+        name: "Motichoor Laddoo",
         price: "20",
         qty: "1 Piece",
         bestseller: true,
