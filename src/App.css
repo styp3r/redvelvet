@@ -46,7 +46,7 @@
 
 #navbar{
   width: 100%;
-  height: 10rem;
+  height: 7rem;
   background: linear-gradient(90deg, #ff3333, #ff8080);
 }
 
@@ -54,7 +54,7 @@
   display: flex;
   justify-content: space-between;
   align-content: space-between;
-  padding: 2rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 #logo{
@@ -100,11 +100,11 @@
   position: relative;
   text-align: left;
   width: 45%;
-  height: 95%;
+  height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 10rem 0;
+  margin: 0 0 5rem 0;
 }
 
 .rightHeroContent{
@@ -334,21 +334,19 @@
 
 .footerBlocks{
   width: 100%;
-  height: 15rem;
-  background-color: #61dafb;
+  height: 30rem;
   display: flex;
 }
 
 .footerLeft{
   width: 50%;
   height: 100%;
-  background-color: #a6c130;
+  position: relative;
 }
 
 .footerRight{
   width: 50%;
   height: 100%;
-  background-color: #b36af8;
 }
 
 #bestsellersSection{
@@ -413,5 +411,37 @@
 
 .bestSellersTitle{
   margin: 1rem;
+}
+
+#footerSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footerBlocks{
+  width: 95%;
+  padding: 3rem 0 0 0;
+  border-radius: 2rem 2rem 0 0;
+  background: linear-gradient( #ff8080 ,#ff3333);
+}
+
+.footerLeftContent{
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  margin: 5rem;
+}
+
+.footerRightContent{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.col-1, .col-2, .col-3{
+  margin: 0 2rem 0 2rem;
 }
 

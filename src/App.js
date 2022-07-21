@@ -1,25 +1,30 @@
 import './App.css';
-import Hero from './components/Hero';
-import BestSellers from './components/Bestsellers';
-import About from './components/About';
-import Services from './components/Services';
-import Platforms from './components/Platforms';
-import Reviews from './components/Reviews';
-import Footer from './components/Footer';
+import Home from './components/Home';
 import Navbar from './components/Navbar';
+import ProductsPage from './components/ProductsPage';
+import AboutPage from './components/AboutPage';
+import ContactPage from './components/ContactPage';
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <BestSellers />
-      <Platforms />
-      <Reviews />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path = "/" element = {<Home />}></Route>
+          <Route path = "productsPage" element = {<ProductsPage />}></Route>
+          <Route path = "aboutPage" element = {<AboutPage />}></Route>
+          <Route path = "contactPage" element = {<ContactPage />}></Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
