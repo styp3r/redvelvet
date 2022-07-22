@@ -4,11 +4,11 @@ const items = [
     {
         //Sweets
         id: 0,
-        name: "Samosa",
+        name: "Milk Mysore Pak",
         price: "20",
         qty: "1 Piece",
-        bestseller: true,
-        img: IMAGES.samosa,
+        bestseller: false,
+        img: IMAGES.milkMysore,
         category: "sweets"
     },
     {
@@ -16,7 +16,7 @@ const items = [
         name: "Anjeer Box",
         price: "20",
         qty: "1 Piece",
-        bestseller: true,
+        bestseller: false,
         img: IMAGES.anjeer,
         category: "sweets"
     },
@@ -25,7 +25,7 @@ const items = [
         name: "Balusah",
         price: "20",
         qty: "1 Piece",
-        bestseller: true,
+        bestseller: false,
         img: IMAGES.balusah,
         category: "sweets"
     },
@@ -34,7 +34,7 @@ const items = [
         name: "Besan Laddoo",
         price: "20",
         qty: "1 Piece",
-        bestseller: true,
+        bestseller: false,
         img: IMAGES.besan,
         category: "sweets"
     },
@@ -43,7 +43,7 @@ const items = [
         name: "Bombay Halwa",
         price: "20",
         qty: "1 Piece",
-        bestseller: true,
+        bestseller: false,
         img: IMAGES.bombay,
         category: "sweets"
     },
@@ -142,7 +142,7 @@ const items = [
         name: "Kaju Burfi",
         price: "20",
         qty: "1 Piece",
-        bestseller: false,
+        bestseller: true,
         img: IMAGES.kaju,
         category: "sweets"
     },
@@ -322,7 +322,7 @@ const items = [
         name: "Motichoor Laddoo",
         price: "20",
         qty: "1 Piece",
-        bestseller: false,
+        bestseller: true,
         img: IMAGES.motichoorLaddoo,
         category: "sweets"
     },
@@ -512,7 +512,7 @@ const items = [
     },
     {
         id: 55,
-        name: "Lassi",
+        name: "Sweet Lassi",
         price: "20",
         qty: "200ml",
         bestseller: false,
@@ -536,6 +536,152 @@ const items = [
         bestseller: false,
         img: IMAGES.badamMilk,
         category: "beverages"
+    },
+
+    //Snacks
+    {
+        id: 58,
+        name: "Chole Bhature",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: true,
+        img: IMAGES.bhature,
+        category: "snacks"
+    },
+    {
+        id: 59,
+        name: "Cheese Chole Bhature",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.cheeseBhature,
+        category: "snacks"
+    },
+    {
+        id: 60,
+        name: "Chole Methi Bhature",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.choleMethiBhature,
+        category: "snacks"
+    },
+    {
+        id: 61,
+        name: "Paneer Chole Bhature",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.paneerBhature,
+        category: "snacks"
+    },
+    {
+        id: 62,
+        name: "Paneer Methi Bhature",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.paneerMethi,
+        category: "snacks"
+    },
+    {
+        id: 63,
+        name: "Pav Bhaji",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.pavBhaji,
+        category: "snacks"
+    },
+    {
+        id: 64,
+        name: "Cheese Pav Bhaji",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.cheesePavBhaji,
+        category: "snacks"
+    },
+    {
+        id: 65,
+        name: "Paneer Pav Bhaji",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.paneerPavBhaji,
+        category: "snacks"
+    },
+    {
+        id: 66,
+        name: "Green Peas Pav Bhaji",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.peasPavBhaji,
+        category: "snacks"
+    },
+    {
+        id: 67,
+        name: "Mixed Pav Bhaji",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.mixPavBhaji,
+        category: "snacks"
+    },
+    {
+        id: 68,
+        name: "Vada Pav",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: true,
+        img: IMAGES.vada,
+        category: "snacks"
+    },
+    {
+        id: 69,
+        name: "Cheese Vada Pav",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.cheeseVada,
+        category: "snacks"
+    },
+    {
+        id: 70,
+        name: "Cutlet Vada Pav",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.cutletVada,
+        category: "snacks"
+    },
+    {
+        id: 71,
+        name: "Tikkiya Vada Pav",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.tikkiVada,
+        category: "snacks"
+    },
+    {
+        id: 72,
+        name: "Samosa Vada Pav",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.samosaVada,
+        category: "snacks"
+    },
+    {
+        id: 73,
+        name: "Pani Puri",
+        price: "20",
+        qty: "6 Pieces",
+        bestseller: true,
+        img: IMAGES.paniPuri,
+        category: "snacks"
     },
 ];  
 

@@ -1,6 +1,6 @@
 const IMAGES = {
     //Sweets
-    samosa: require('../images/samosa.jpg'),
+    milkMysore: require('../images/milkMysore.jpg'),
     anjeer: require('../images/anjeerBox.jpg'),
     balusah: require('../images/balusah.jpg'),
     besan: require('../images/besan.jpg'),
@@ -62,6 +62,24 @@ const IMAGES = {
     lassi: require('../images/lassi.jpg'),
     mango: require('../images/mango.jpg'),
     badamMilk: require('../images/badamMilk.jpg'),
+
+    //Snacks
+    bhature: require('../images/bhature.jpg'),
+    cheeseBhature: require('../images/cheeseBhature.jpg'),
+    cheesePavBhaji: require('../images/cheesePavBhaji.jpg'),
+    cheeseVada: require('../images/cheeseVada.jpg'),
+    choleMethiBhature: require('../images/choleMethiBhature.jpg'),
+    cutletVada: require('../images/cutletVada.jpg'),
+    mixPavBhaji: require('../images/mixPavBhaji.jpg'),
+    paneerBhature: require('../images/paneerBhature.jpg'),
+    paneerMethi: require('../images/paneerMethi.jpg'),
+    paneerPavBhaji: require('../images/paneerPavBhaji.jpg'),
+    paniPuri: require('../images/paniPuri.jpg'),
+    pavBhaji: require('../images/pavBhaji.jpg'),
+    peasPavBhaji: require('../images/peasPavBhaji.jpg'),
+    samosaVada: require('../images/samosaVada.jpg'),
+    tikkiVada: require('../images/tikkiVada.jpg'),
+    vada: require('../images/vada.jpg'),
 }
 
 export default IMAGES;

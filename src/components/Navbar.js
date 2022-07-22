@@ -8,7 +8,7 @@ function Navbar(){
             <div className = "navbarContent">
                 <Link to = "/"><div id = "logo"></div></Link>
                 <div id = "links">
-                    <Link to = "products"><p className = "productsLink">Products</p></Link>
+                    <Link to = "products"><p className = "productsLink">Menu</p></Link>
                     <Link to = "about"><p className = "aboutLink">About</p></Link>
                     <Link to = "contact"><p className = "contactLink">Contact</p></Link>
                 </div>

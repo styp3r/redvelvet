@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import ReviewsList from './ReviewsList';
+import ReviewArt from '../images/Decoration/reviewArt.jpg';
 
 function Reviews() {
     
@@ -45,7 +46,9 @@ function Reviews() {
                         </button>
                     </div>
                 </div>
-                <div className="revRight"></div>
+                <div className="revRight">
+                    <img className = "reviewArtRight" src = {ReviewArt} />
+                </div>
             </div>
         </div>
     );

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import HeroImg from '../images/Decoration/heroImg.png';
 
 function Hero(){
     return (
         <div id = "heroSection">
             <div className = "heroBg">
                 <div className = "leftHero">
+                    <img className = "heroImgLeft" src = {HeroImg}/>
                 </div>
                 <div className = "rightHero">
 
