@@ -2,7 +2,7 @@ function ProductBox(props) {
     if (props.category === props.current) {
         return (
             <div id="productBox">
-                <img className="itemBoxImg" src={props.img} />
+                <img className="itemBoxImg" src={props.img} loading = "lazy" />
                 <div className="itemBoxText">
                     <div className="itemBoxPrice">Rs. {props.price}</div>
                     <p className="itemBoxName">{props.name}</p>

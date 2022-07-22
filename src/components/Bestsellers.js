@@ -1,9 +1,16 @@
 import React from 'react';
 import ItemBox from './BestSellingItemBox';
 import { Link } from "react-router-dom";
-import IMAGES from './ImagesImport';
+import ItemList from './ItemList';
 
 function Bestsellers(){
+
+    function dispBest(best){
+        if(best.bestseller === true){
+            return <ItemBox img = {best.img}/>;
+        }
+    }
+
     return (
         <div id = "bestsellersSection">
             <div className = "bestSellersBg">
@@ -12,12 +19,7 @@ function Bestsellers(){
                 </div>
 
                 <div className = "BestsellersItems">
-                    {/* Map function to display top 5 best seeling items from the menu*/}
-                    <ItemBox img = {IMAGES.samosa}/>
-                    <ItemBox img = {IMAGES.samosa}/>
-                    <ItemBox img = {IMAGES.samosa}/>
-                    <ItemBox img = {IMAGES.samosa}/>
-                    <ItemBox img = {IMAGES.samosa}/>
+                    {ItemList.map(dispBest)}
                 </div>
             </div>
             <Link to = "products"><button className = "seeMoreBtn">See More</button></Link>
