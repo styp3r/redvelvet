@@ -10,7 +10,7 @@ function ProductBox(props) {
                 </div>
             </div>
         );
-    }
+    } 
 }
 
 export default ProductBox;

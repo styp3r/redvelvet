@@ -493,8 +493,6 @@
 .itemBoxImg{
   width: 100%;
   height: 65%;
-  object-fit: fill;
-  image-rendering: optimizeSpeed;
 }
 
 .itemBoxQty{

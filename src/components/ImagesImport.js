@@ -40,6 +40,28 @@ const IMAGES = {
     paan: require('../images/paan.jpg'),
     pinni: require('../images/pinni.jpg'),
     soan: require('../images/soan.jpg'),
+    //Mixtures
+    awalakkiMix: require('../images/awalakkiMix.jpg'),
+    bombayMix: require('../images/bombayMix.jpg'),
+    boondiMix: require('../images/boondiMix.jpg'),
+    chips: require('../images/chips.jpg'),
+    dalmot: require('../images/dalmot.jpg'),
+    gathiya: require('../images/gathiya.jpg'),
+    gujratiPapdi: require('../images/gujratiPapdi.jpg'),
+    lahsen: require('../images/lahsen.jpg'),
+    mathri: require('../images/mathri.jpg'),
+    nimkiPlain: require('../images/nimkiPlain.jpg'),
+    palakSev: require('../images/palakSev.jpg'),
+    plainSev: require('../images/plainSev.jpg'),
+    sakarpala: require('../images/sakarpala.jpg'),
+    sohali: require('../images/sohali.jpg'),
+    spicy: require('../images/spicy.jpg'),
+
+    //Beverages
+    chaas: require('../images/chaas.jpg'),
+    lassi: require('../images/lassi.jpg'),
+    mango: require('../images/mango.jpg'),
+    badamMilk: require('../images/badamMilk.jpg'),
 }
 
 export default IMAGES;

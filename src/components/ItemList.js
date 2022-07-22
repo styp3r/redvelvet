@@ -2,6 +2,7 @@ import IMAGES from './ImagesImport'
 
 const items = [
     {
+        //Sweets
         id: 0,
         name: "Samosa",
         price: "20",
@@ -361,6 +362,181 @@ const items = [
         img: IMAGES.soan,
         category: "sweets"
     },
-];
+
+    //Mixtures
+    {
+        id: 39,
+        name: "Awalakki Mixture",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.awalakkiMix,
+        category: "mixtures"
+    },
+    {
+        id: 40,
+        name: "Bombay Mixture",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.bombayMix,
+        category: "mixtures"
+    },
+    {
+        id: 41,
+        name: "Boondi Mix",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.boondiMix,
+        category: "mixtures"
+    },
+    {
+        id: 42,
+        name: "Salted Chips",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.chips,
+        category: "mixtures"
+    },
+    {
+        id: 43,
+        name: "Dalmot",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.dalmot,
+        category: "mixtures"
+    },
+    {
+        id: 44,
+        name: "Gathiya",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.gathiya,
+        category: "mixtures"
+    },
+    {
+        id: 45,
+        name: "Gujarati Papdi",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.gujratiPapdi,
+        category: "mixtures"
+    },
+    {
+        id: 46,
+        name: "Lahsen Sev",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.lahsen,
+        category: "mixtures"
+    },
+    {
+        id: 47,
+        name: "Mathri",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.mathri,
+        category: "mixtures"
+    },
+    {
+        id: 48,
+        name: "Nimki Plain",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.nimkiPlain,
+        category: "mixtures"
+    },
+    {
+        id: 49,
+        name: "Palak Sev",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.palakSev,
+        category: "mixtures"
+    },
+    {
+        id: 50,
+        name: "Plain Sev",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.plainSev,
+        category: "mixtures"
+    },
+    {
+        id: 51,
+        name: "Sakarpala",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.sakarpala,
+        category: "mixtures"
+    },
+    {
+        id: 52,
+        name: "Sohali",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.sohali,
+        category: "mixtures"
+    },
+    {
+        id: 53,
+        name: "Masala Chips",
+        price: "20",
+        qty: "180gms",
+        bestseller: false,
+        img: IMAGES.spicy,
+        category: "mixtures"
+    },
+
+    //Beverages
+    {
+        id: 54,
+        name: "Chaas",
+        price: "20",
+        qty: "200ml",
+        bestseller: false,
+        img: IMAGES.chaas,
+        category: "beverages"
+    },
+    {
+        id: 55,
+        name: "Lassi",
+        price: "20",
+        qty: "200ml",
+        bestseller: false,
+        img: IMAGES.lassi,
+        category: "beverages"
+    },
+    {
+        id: 56,
+        name: "Mango Lassi",
+        price: "20",
+        qty: "200ml",
+        bestseller: false,
+        img: IMAGES.mango,
+        category: "beverages"
+    },
+    {
+        id: 57,
+        name: "Badam Milk",
+        price: "20",
+        qty: "200ml",
+        bestseller: false,
+        img: IMAGES.badamMilk,
+        category: "beverages"
+    },
+];  
 
 export default items;
