@@ -683,6 +683,424 @@ const items = [
         img: IMAGES.paniPuri,
         category: "snacks"
     },
+
+    //Parathas
+    {
+        id: 74,
+        name: "Ajwain Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.ajwain,
+        category: "parathas"
+    },
+    {
+        id: 75,
+        name: "Aloo Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.aloo,
+        category: "parathas"
+    },
+    {
+        id: 76,
+        name: "Chapathi with Chole",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.chapChole,
+        category: "parathas"
+    },
+    {
+        id: 77,
+        name: "Chapathi with Gobi Subzi",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.chapGobi,
+        category: "parathas"
+    },
+    {
+        id: 78,
+        name: "Chapathi with Paneer Gravy",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.chapPaneer,
+        category: "parathas"
+    },
+    {
+        id: 79,
+        name: "Gobi Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.gobi,
+        category: "parathas"
+    },
+    {
+        id: 80,
+        name: "Green Peas Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.greenPeas,
+        category: "parathas"
+    },
+    {
+        id: 81,
+        name: "Laccha Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.laccha,
+        category: "parathas"
+    },
+    {
+        id: 82,
+        name: "Methi Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.methi,
+        category: "parathas"
+    },
+    {
+        id: 83,
+        name: "Methi Paratha with Aloo Gravy",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.methiAlooGravy,
+        category: "parathas"
+    },
+    {
+        id: 84,
+        name: "Mixed Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.mixed,
+        category: "parathas"
+    },
+    {
+        id: 85,
+        name: "Mooli Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.mooli,
+        category: "parathas"
+    },
+    {
+        id: 86,
+        name: "Onion Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.onion,
+        category: "parathas"
+    },
+    {
+        id: 87,
+        name: "Onion Cheese Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.onionCheese,
+        category: "parathas"
+    },
+    {
+        id: 88,
+        name: "Palak Paratha with Aloo Gravy",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.palakAlooGravy,
+        category: "parathas"
+    },
+    {
+        id: 89,
+        name: "Paneer Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.paneer,
+        category: "parathas"
+    },
+    {
+        id: 90,
+        name: "Paneer Cheese Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.paneerCheese,
+        category: "parathas"
+    },
+    {
+        id: 91,
+        name: "Paratha with Chole",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.parChole,
+        category: "parathas"
+    },
+    {
+        id: 92,
+        name: "Paratha with Gobi Subzi",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.parGobi,
+        category: "parathas"
+    },
+    {
+        id: 93,
+        name: "Paratha with Paneer Gravy",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.parPaneer,
+        category: "parathas"
+    },
+    {
+        id: 94,
+        name: "Pudina Paratha with Aloo Gravy",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.pudinaAlooGravy,
+        category: "parathas"
+    },
+    {
+        id: 95,
+        name: "Puri with Chole",
+        price: "20",
+        qty: "3 Piece",
+        bestseller: false,
+        img: IMAGES.puriChole,
+        category: "parathas"
+    },
+    {
+        id: 96,
+        name: "Puri with Gobi Subzi",
+        price: "20",
+        qty: "3 Piece",
+        bestseller: false,
+        img: IMAGES.puriGobi,
+        category: "parathas"
+    },
+    {
+        id: 97,
+        name: "Puri with Paneer Gravy",
+        price: "20",
+        qty: "3 Piece",
+        bestseller: false,
+        img: IMAGES.puriPaneer,
+        category: "parathas"
+    },
+    {
+        id: 98,
+        name: "Sattu Paratha with Raita",
+        price: "20",
+        qty: "1 Piece",
+        bestseller: false,
+        img: IMAGES.sattu,
+        category: "parathas"
+    },
+
+    //Chaats
+    {
+        id: 99,
+        name: "Aloo Batata Puri",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.alooBatata,
+        category: "chaats"
+    },
+    {
+        id: 100,
+        name: "Bhel Puri",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.bhelPuri,
+        category: "chaats"
+    },
+    {
+        id: 101,
+        name: "Cutlet Chaat",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.cutletChaat,
+        category: "chaats"
+    },
+    {
+        id: 102,
+        name: "Cutlet Mutter",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.cutletMutter,
+        category: "chaats"
+    },
+    {
+        id: 103,
+        name: "Dahi Batata Puri",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.dahiBatata,
+        category: "chaats"
+    },
+    {
+        id: 104,
+        name: "Dahi Katori Chaat",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.dahiKatori,
+        category: "chaats"
+    },
+    {
+        id: 105,
+        name: "Dahi Papdi Chaat",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.dahiPapdi,
+        category: "chaats"
+    },
+    {
+        id: 106,
+        name: "Dahi Raj Kachori",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.dahiRaj,
+        category: "chaats"
+    },
+    {
+        id: 107,
+        name: "Jhal Muri",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.jhalMuri,
+        category: "chaats"
+    },
+    {
+        id: 108,
+        name: "Kachori Chaat",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.kachoriChaat,
+        category: "chaats"
+    },
+    {
+        id: 109,
+        name: "Kachori Mutter",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.kachoriMutter,
+        category: "chaats"
+    },
+    {
+        id: 110,
+        name: "Masala Puri",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.masalaPuri,
+        category: "chaats"
+    },
+    {
+        id: 111,
+        name: "Papdi Chole",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.papdiChole,
+        category: "chaats"
+    },
+    {
+        id: 112,
+        name: "Papdi Mutter",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.papdiMutter,
+        category: "chaats"
+    },
+    {
+        id: 113,
+        name: "Plain Mutter",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.plainMutter,
+        category: "chaats"
+    },
+    {
+        id: 114,
+        name: "Rasgulla Chaat",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.rasgullaChaat,
+        category: "chaats"
+    },
+    {
+        id: 115,
+        name: "Samosa Chaat",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.samosaChaat,
+        category: "chaats"
+    },
+    {
+        id: 116,
+        name: "Samosa Mutter",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.samosaMutter,
+        category: "chaats"
+    },
+    {
+        id: 117,
+        name: "Sev Puri",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.sevPuri,
+        category: "chaats"
+    },
+    {
+        id: 118,
+        name: "Tikkiya Mutter",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.tikkiyaMutter,
+        category: "chaats"
+    },
+    {
+        id: 119,
+        name: "Tomato Chaat",
+        price: "20",
+        qty: "1 Plate",
+        bestseller: false,
+        img: IMAGES.tomatoChaat,
+        category: "chaats"
+    },
 ];  
 
 export default items;
