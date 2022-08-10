@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 function Map() {
     return (
         <div id="mapContainer">
-            <MapContainer center={[12.91628286473767, 77.66939806646316]} zoom={11.5} scrollWheelZoom={false}>
+            <MapContainer center={[12.945623482190108, 77.68224442597108]} zoom={11.4} scrollWheelZoom={false}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -41,6 +41,11 @@ function Map() {
                 <Marker position={[12.9322018763794, 77.74229118188418]}>
                     <Popup>
                         Laddoos Varthur <br /> Easily customizable.
+                    </Popup>
+                </Marker>
+                <Marker position={[13.031531059848765, 77.66957084476361]}>
+                    <Popup>
+                        Laddoos Horamavu <br /> Easily customizable.
                     </Popup>
                 </Marker>
             </MapContainer>
