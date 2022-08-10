@@ -15,7 +15,7 @@ function Footer(){
                         <div className = "col-1">
                             <h3 className = "footerColTitle">Social</h3>
                             <hr />
-                            <p>Instagram</p>
+                            <a href = "https://www.instagram.com/laddoossweetsindia/"><p>Instagram</p></a>
                             <p>Facebook</p>
                             <p>WhatsApp</p>
                         </div>

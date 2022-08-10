@@ -577,16 +577,7 @@
 }
 
 .itemBoxName{
-  margin: 0 1rem 0 0;
-}
-
-.itemBoxPrice{
-  display: inline-block;
-  padding: 0.2rem 1rem 0.2rem 1rem;
-  border-radius: 5px;
-  background: linear-gradient(90deg, #ff3333, #ff8080);
-  color: #ffffff;
-  margin: 0 0 0.5rem 0;
+  margin: 2rem 1rem 0 0;
 }
 
 .categoryPane{
@@ -607,3 +598,236 @@
   background-color: #ff8080;
   color: #ffffff;
 }
+
+.abHeaderBlock{
+  width: 100%;
+  height: 30rem;
+  margin: 0 0 10rem 0;
+  position: relative;
+}
+
+.aboutPageHeader{
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.aboutTextSection{
+  display: flex;
+  width: 100%;
+  height: 30rem;
+}
+
+.aboutTextLeft{
+  width: 50%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutText{
+  width: 20rem;
+  text-align: left;
+}
+
+.officeAddress{
+  width: 50%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.officeAddressText{
+  width: 25rem;
+  text-align: left;
+  margin: 0 0 5.5rem 0;
+}
+
+.aboutPageStats{
+  width: 100%;
+  height: 20rem;
+  background-color: #c6c5c5;
+  display: flex;
+  margin: 5rem 0 10rem 0;
+}
+
+.stats{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+
+.abHeaderText{
+  position: absolute;
+  margin: 5rem 0 0 5rem;
+  width: 46rem;
+  text-align: left;
+}
+
+.subscribeText{
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 900;
+  background-color: #ee5757;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.emailInput{
+  width: 15rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.subBtn{
+  margin: 0 0 0 2rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #ee5757;
+  color: #ffffff;
+}
+
+.subBtn:hover{
+  cursor: pointer;
+}
+
+.subBtn:active{
+  background-color: #b94444;
+}
+
+#contactBlock{
+  width: 100%;
+  background: linear-gradient(90deg, #ff3333, #ff8080);
+}
+
+.contactHeader{
+  width: 100%;
+  height: 30rem;
+  text-align: right; 
+  position: relative;
+  padding: 5rem 0 0 0;
+}
+
+.contactHeaderText{
+  position: absolute;
+  color: #ffffff;
+  margin: 5rem 0 0 10rem;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+.contactHeaderSubText{
+  text-align: left;
+  width: 30rem;
+  position: absolute;
+  color: #ffffff;
+  margin: 12rem 0 0 10rem;
+}
+
+.contactGirl{
+  width: 22rem;
+  height: 30rem;
+  margin: 0 5rem 0 0;
+}
+
+.contactMid{
+  display: flex;
+}
+
+.meetUs{
+  width: 32rem;
+  height: 34rem;
+  background-color: #ffffff;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pitchUsText{
+  margin: 0 10rem 0 0;
+}
+
+.meetUsText{
+  width: 20rem;
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+.pitchUs{
+  width: 34rem;
+  height: 34rem;
+  background-color: #e7e5e5;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space{
+  margin: 1.5rem 0 0 0;
+}
+
+.phoneIcon, .mailIcon, .locIcon{
+  color:#ee5757;
+  float: left;
+  margin: 0 1rem 0 0;
+}
+
+.pitchName, .pitchEmail{
+  width: 15rem;
+  height: 2rem;
+  display: block;
+  margin: 0.5rem 0 0.5rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0 0 0 0.5rem;
+}
+
+.pitchMessage{
+  width: 15rem;
+  height: 5rem;
+  display: block;
+  margin: 1rem 0 1rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  resize: none;
+  padding: 0.2rem 0 0 0.5rem;
+}
+
+.pitchBtn{
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, #20d992, #25bbd2);
+}
+
+.pitchBtn:hover{
+  cursor: pointer;
+}
+
+.pitchBtn:active{
+  background: linear-gradient(90deg, #1aaf76, #1d92a4);
+}
+
+.mapView{
+  width: 34rem;
+  height: 34rem;
+}
+
+.mapViewContainer{
+  width: 34rem;
+  height: 34rem;
+  overflow: hidden;
+}
+
+.leaflet-container{
+  width: 34rem;
+  height: 34rem;
+}
+
