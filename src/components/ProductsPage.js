@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ProductBox from './ProductBox';
 import ItemList from './ItemList';
+import Footer from '../components/Footer';
 
 function ProductsPage() {
 
@@ -44,6 +45,7 @@ function ProductsPage() {
                     {ItemList.map(dispItems)}
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

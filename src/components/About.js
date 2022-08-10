@@ -1,11 +1,14 @@
 import React from 'react';
+import DahiPuri from '../images/Decoration/rajKach.png';
 import { Link } from "react-router-dom";
 
 function About(){
     return (
         <div id = "aboutSection">
             <div className = "aboutBlocks">
-                <div className = "blockLeft"></div>
+                <div className = "blockLeft">
+                    <img className = "dahiPuri" src = {DahiPuri}/>
+                </div>
                 <div className = "blockRight">
                     <div className = "aboutContent">
                         <h3 className = "aboutTitle">About Us</h3>

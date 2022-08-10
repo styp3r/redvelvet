@@ -78,14 +78,18 @@
   align-items: center;
 }
 
-.productsLink, .aboutLink, .contactLink{
+.homeLink, .productsLink, .aboutLink, .contactLink{
   display: inline-block;
   margin: 0 2rem 0 2rem;
   color: #ffffff;
 }
 
-.productsLink:hover, .aboutLink:hover, .contactLink:hover{
+.homeLink:hover, .productsLink:hover, .aboutLink:hover, .contactLink:hover{
   cursor: pointer;
+}
+
+.homeLink:active, .productsLink:active, .aboutLink:active, .contactLink:active{
+  color: #9b0000;
 }
 
 .heroBg{
@@ -176,12 +180,12 @@
 }
 
 .blockLeft{
-  width: 30%;
+  width: 40%;
   height: 100%;
 }
 
 .blockRight{
-  width: 70%;
+  width: 60%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -191,6 +195,7 @@
 .aboutContent{
   width: 30rem;
   text-align: left;
+  margin: 0 5rem 0 0;
 }
 
 #servicesSection{
@@ -205,7 +210,7 @@
 
 .servicesBlocks{
   width: 90%;
-  height: 40rem;
+  height: 30rem;
   display: flex;
 }
 
@@ -476,10 +481,57 @@
 }
 
 #footerSection{
+  height: 11rem;
+  width: 100%;
+  margin: 5rem 0 0 0;
+}
+
+.footerLogo{
+  font-family: "Monotype Corsiva";
+  font-style: italic;
+  color: #ff3042;
+}
+
+.footerLeft{
+  text-align: left;
+  position: absolute;
+  left: 5rem;
+}
+
+.social{
+  margin: 2rem 0 0 0;
+}
+
+.footerRight{
+  text-align: right;
+  position: absolute;
+  right: 5rem;
+}
+
+.copyright{
+  color: #ababab;
+}
+
+.footerContent{
+  padding: 1rem 0 0 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+
+.fb, .in, .wa{
+  display: inline-block;
+  margin: 0 1rem 0 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.fb:hover, .in:hover, .wa:hover{
+  cursor: pointer;
+}
+
+.footerTag{
+  margin: 1rem 0 0 0;
 }
 
 #productDisp{
@@ -638,6 +690,14 @@
   font-size: 3rem;
 }
 
+.dahiPuri{
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  margin: 0 0 0 10rem;
+}
+
 .statBlock{
   width: 15rem;
 }
@@ -690,7 +750,6 @@
 
 #contactBlock{
   width: 100%;
-  background: linear-gradient(90deg, #ff3333, #ff8080);
 }
 
 .contactHeader{
@@ -699,6 +758,7 @@
   text-align: right; 
   position: relative;
   padding: 5rem 0 0 0;
+  background: linear-gradient(90deg, #ff3333, #ff8080);
 }
 
 .contactHeaderText{
@@ -720,7 +780,7 @@
 .contactGirl{
   width: 22rem;
   height: 30rem;
-  margin: 0 5rem 0 0;
+  margin: 0 10rem 0 0;
 }
 
 .contactMid{
@@ -737,13 +797,8 @@
   align-items: center;
 }
 
-.pitchUsText{
-  margin: 0 10rem 0 0;
-}
-
 .meetUsText{
   width: 20rem;
-  margin: 0 0 0 0;
   text-align: left;
 }
 

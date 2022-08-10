@@ -1,4 +1,5 @@
 import Girl from '../images/Decoration/contactGirl.png';
+import Footer from '../components/Footer';
 import Map from './Map';
 
 function ContactPage(){
@@ -37,6 +38,8 @@ function ContactPage(){
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 }

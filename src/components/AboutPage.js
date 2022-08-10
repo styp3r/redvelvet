@@ -1,4 +1,5 @@
 import AboutPageHeader from '../images/Decoration/aboutPageHeader.jpg';
+import Footer from '../components/Footer';
 
 function AboutPage() {
 
@@ -55,6 +56,8 @@ function AboutPage() {
                     <img className="aboutPageHeader" src={AboutPageHeader} />
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 }
