@@ -20,7 +20,7 @@ function Reviews() {
 
     function handleClick(){
         //add animation when showing next review
-        if(rev === 3){
+        if(rev === 6){
             setRev(0);
         }
         else{
@@ -37,8 +37,10 @@ function Reviews() {
                         <h1>This is what Our Customers Say</h1>
                     </div>
                     <div className = "reviewBox">
-                        <h3>{ReviewsList.map(dispRevName)}</h3>
-                        <p>{ReviewsList.map(dispRev)}</p>
+                        <div className = "reviewText">
+                            <h3>{ReviewsList.map(dispRevName)}</h3>
+                            <p  className = "colorGrey">{ReviewsList.map(dispRev)}</p>
+                        </div>
                         <button className = "revNextBtn" onClick={handleClick}>
                             <div className = "alArrowDiv">
                                 <span class="material-symbols-outlined">chevron_right</span>

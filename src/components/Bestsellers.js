@@ -16,6 +16,7 @@ function Bestsellers(){
             <div className = "bestSellersBg">
                 <div className = "bestSellersContent">
                     <h1 className = "bestSellersTitle">Most Popular Items</h1>
+                    <p style = {{margin: "0 0 0 1rem", color: "#737373"}}>Our customers loved these items, maybe you might too!</p>
                 </div>
 
                 <div className = "BestsellersItems">

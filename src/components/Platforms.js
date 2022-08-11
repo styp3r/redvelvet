@@ -12,7 +12,7 @@ function Platforms(){
                     <div className = "platContent">
                         <h3 className = "platformsTitle">Partners</h3>
                         <h1>Simple Way To Order Your Food</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className = "colorGrey">We have partnered up with the leading delivery executives in the city to give you a seamless way of ordering our food so you can enjoy top-quality deliciousness wherever you are . So, what are you waiting for?</p>
                         <p className = "orderNowText">Order Now!</p>
                         <button className = "swiggy">Swiggy</button>
                         <button className = "zomato">Zomato</button>

@@ -2,6 +2,11 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 function Navbar(){
+
+    function handleCLick(){
+        
+    }
+
     return (
         <div id = "navbar">
             <div className = "navbarBlock">

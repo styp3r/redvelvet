@@ -28,7 +28,7 @@ function ProductsPage() {
 
     return (
         <div id="productDisp">
-            <h1 className = "prodTitle">Our Collection</h1>
+            <h1 className = "prodTitle">Our Menu</h1>
             <div className="prodDispBlock">
                 <div className="productLeft">
                     <div className="categoryPane">
