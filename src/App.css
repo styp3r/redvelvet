@@ -39,6 +39,14 @@
   }
 }
 
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
 #heroSection {
   display: flex;
   justify-content: center;
@@ -676,11 +684,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .aboutText {
-  width: 20rem;
+  width: 30rem;
   text-align: left;
+}
+
+.condiments{
+  width: 100%;
+  height: 17rem;
+  object-fit: cover;
 }
 
 .officeAddress {
@@ -689,12 +704,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 }
 
 .officeAddressText {
-  width: 25rem;
+  width: 10rem;
   text-align: left;
-  margin: 0 0 5.5rem 0;
+  margin: 5rem 0 5.5rem 0;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #ee5757;
 }
 
 .aboutPageStats {

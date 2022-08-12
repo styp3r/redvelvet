@@ -1,21 +1,36 @@
 import AboutPageHeader from '../images/Decoration/aboutPageHeader.jpg';
 import Footer from '../components/Footer';
+import Condiments from '../images/Decoration/condiments.jpg';
 
 function AboutPage() {
 
     window.scrollTo(0, 0);
     return (
         <div id="aboutPage">
+            <img className = "condiments" src = {Condiments}/>
             <h1 className = "prodTitle">About Us</h1>
             <div className="aboutTextSection">
                 <div className="aboutTextLeft">
-                    <p className="aboutText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p className="aboutText">Being in the food and beverages business for over a decade, we started with just one shop in 1998. Serving only the freshest that human hands can make, we are honoured to provide the people of Bengaluru with the best collection of Sweets, Chaats, Snacks and Parathas along with a few classical beverages.</p>
+                    <p className="aboutText">We understand the fundamental human emotion behind tasting good food and strive to provide the most memorable experience for your taste buds, turning fresh ingredients into juicy and masala laden crispy food that would leave you craving for more!</p>
                 </div>
 
                 <div className="officeAddress">
                     <div className="officeAddressText">
-                        <h4>Our Head Office</h4>
-                        <p>"Hemkund", BMP No. 10, 14th D Cross, Behind GR Regency apartments, Baghmane Techpark Back Gate, Byrasandra, GM Palya, new Thippasandra Post, Bengaluru, India 560 075</p>
+                        <h4>Our Branches</h4>
+                        <ul>
+                            <li>Jeevan Bima Nagar</li>
+                            <li>BTM</li>
+                            <li>Electronic City</li>
+                            <li>Varthur</li>
+                            <li>Munekkollal</li>
+                            <li>Doddanekundi</li>
+                            <li>Horamavu</li>
+                            <li>Bellandur</li>
+                            <hr/>
+                            <h4>Upcoming :</h4>
+                            <li>Kasturinagar</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -24,25 +39,25 @@ function AboutPage() {
                 <div className="stats1">
                     <div className="statBlock">
                         <span class="material-symbols-outlined abIcons">diversity_3</span>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p>We have a team of more than 200 people who love to serve delicious food for our customers and we work round the clock to make that happen!</p>
                     </div>
                 </div>
                 <div className="stats2">
                     <div className="statBlock">
                         <span class="material-symbols-outlined abIcons">storefront</span>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p>With 8 operational outlets, 1 in the pipeline, and many more to come, Laddoos is determined to become a household brand in the coming years.</p>
                     </div>
                 </div>
                 <div className="stats3">
                     <div className="statBlock">
                         <span class="material-symbols-outlined abIcons">shopping_bag</span>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p>We serve more than XYZ customers every year who love our food and we focus on increasing our customer base by operating in happening locations.</p>
                     </div>
                 </div>
                 <div className="stats4">
                     <div className="statBlock">
                         <span class="material-symbols-outlined abIcons">currency_rupee</span>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p>We want to give the best possible experience in the most cost efficient manner possible which is why we have designed our collection to suit every budget. </p>
                     </div>
                 </div>
             </div>

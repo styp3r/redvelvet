@@ -10,7 +10,7 @@ function ContactPage(){
             <div className = "contactHeader">
                 <div>
                     <p className = "contactHeaderText">Let's have a talk.</p>
-                    <p className = "contactHeaderSubText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <p className = "contactHeaderSubText">We love talking to our customers whether it is related to feedback to make our services better suited for you or to discuss any business propositions or collaborations. We're on-board with anything you might have to tell us!</p>
                 </div>
                 <img className = "contactGirl" src = {Girl}/>
             </div>
