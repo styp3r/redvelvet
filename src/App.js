@@ -26,10 +26,10 @@ function App() {
                     <p>X</p>
                 </div>
                 <div className="drawerLinks">
-                <a href = {window.hostname}><p>Home</p></a>
-                    <a href = {window.location.hostname + '/products'}><p>Menu</p></a>
-                    <a href = {window.location.hostname + '/about'}><p>About Us</p></a>
-                    <a href = {window.location.hostname + '/contact'}><p>Contact Us</p></a>
+                <a href = {'/'}><p>Home</p></a>
+                    <a href = {'/products'}><p>Menu</p></a>
+                    <a href = {'/about'}><p>About Us</p></a>
+                    <a href = {'/contact'}><p>Contact Us</p></a>
                 </div>
             </div>
       <BrowserRouter>
