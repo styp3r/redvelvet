@@ -55,10 +55,38 @@ li{
   background-color: #ffffff;
   display: none;
   border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 3px 12px 0.1px #565656;
+}
+
+.closeBtn{
+  margin: 0;
+  padding: 0;
+}
+
+.closeDrawerBtn{
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  border-radius: 100%;
 }
 
 .burger{
   display: none;
+}
+
+.drawerLinks{
+  margin: 5rem 0 0 0;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.dLink{
+  color: #000000;
+  margin: 2rem 0 0 0;
+  font-size: 1.5rem;
 }
 
 #heroSection {
@@ -1183,15 +1211,13 @@ li{
     text-align: center;
     margin: 0;
   }
-
-  .prodDispBlock{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-
+  
   #productDisp{
     text-align: center;
+  }
+
+  .prodDispBlock{
+    width: 100%;
   }
 
   .prodTitle{
@@ -1369,5 +1395,9 @@ li{
     border-radius: 0.5rem;
     color: #ffffff;
     background: linear-gradient(90deg, #20d992, #25bbd2);
+  }
+
+  .social{
+    margin: 5rem 0 0 0;
   }
 }

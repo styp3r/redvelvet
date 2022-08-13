@@ -4,6 +4,9 @@ import Navbar from './components/Navbar';
 import ProductsPage from './components/ProductsPage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
+import Fb from './images/Decoration/fbIcon.png';
+import In from './images/Decoration/inIcon.png';
+import Wa from './images/Decoration/waIcon.png';
 
 
 import {
@@ -22,16 +25,23 @@ function App() {
   return (
     <div>
       <div id="navDrawer">
-                <div className="closeDrawerBtn" onClick={handleCloseBurger}>
-                    <p>X</p>
-                </div>
-                <div className="drawerLinks">
-                <a href = {'/'}><p>Home</p></a>
-                    <a href = {'/products'}><p>Menu</p></a>
-                    <a href = {'/about'}><p>About Us</p></a>
-                    <a href = {'/contact'}><p>Contact Us</p></a>
-                </div>
-            </div>
+        <div className="closeDrawerBtn" onClick={handleCloseBurger}>
+          <span class="material-symbols-outlined closeBtn">close</span>
+        </div>
+        <div className="drawerLinks">
+          <a href={'/'}><p className="dLink">Home</p></a>
+          <a href={'/products'}><p className="dLink">Menu</p></a>
+          <a href={'/about'}><p className="dLink">About Us</p></a>
+          <a href={'/contact'}><p className="dLink">Contact Us</p></a>
+
+          <div className="social">
+            <img className="fb" src={Fb} />
+            <a href="https://www.instagram.com/laddoossweetsindia/"><img className="in" src={In} /></a>
+            <img className="wa" src={Wa} />
+          </div>
+        </div>
+
+      </div>
       <BrowserRouter>
         <div className="App">
           <Navbar />
