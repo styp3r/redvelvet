@@ -7,9 +7,10 @@ function AboutPage() {
     window.scrollTo(0, 0);
     return (
         <div id="aboutPage">
-            <img className = "condiments" src = {Condiments}/>
-            <h1 className = "prodTitle">About Us</h1>
+            <img className="condiments" src={Condiments} />
+            <h1 className="prodTitle">About Us</h1>
             <div className="aboutTextSection">
+
                 <div className="aboutTextLeft">
                     <p className="aboutText">Being in the food and beverages business for over a decade, we started with just one shop in 1998. Serving only the freshest that human hands can make, we are honoured to provide the people of Bengaluru with the best collection of Sweets, Chaats, Snacks and Parathas along with a few classical beverages.</p>
                     <p className="aboutText">We understand the fundamental human emotion behind tasting good food and strive to provide the most memorable experience for your taste buds, turning fresh ingredients into juicy and masala laden crispy food that would leave you craving for more!</p>
@@ -27,7 +28,7 @@ function AboutPage() {
                             <li>Doddanekundi</li>
                             <li>Horamavu</li>
                             <li>Bellandur</li>
-                            <hr/>
+                            <hr />
                             <h4>Upcoming :</h4>
                             <li>Kasturinagar</li>
                         </ul>
@@ -64,12 +65,15 @@ function AboutPage() {
 
             <div className="aboutSubBlock">
                 <div className="abHeaderBlock">
+                    <div className = "subscribeBgMobile">
+                        <div className = "filter"></div>
+                        <img className="aboutPageHeader" src={AboutPageHeader}></img>
+                    </div>
                     <div className="abHeaderText">
                         <p className="subscribeText">Subscribe To Our Mailing List To Get Great Offers!</p>
                         <input className="emailInput" placeholder="Email" type="email" />
                         <button className="subBtn">Subscribe</button>
                     </div>
-                    <img className="aboutPageHeader" src={AboutPageHeader} />
                 </div>
             </div>
 

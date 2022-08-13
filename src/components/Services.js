@@ -5,21 +5,21 @@ function Services() {
         <div id="servicesSection">
             <div className="servicesTitle">
                 <h1 className="serTitleContent">Our Awesome Services</h1>
-                <p style = {{color: "#ffffff"}}>We take care of the important stuff so you can munch in peace!</p>
+                <p className = "serTitleSubContent" >We take care of the important stuff so you can munch in peace!</p>
             </div>
             <div className="servicesBlocks">
                 <div className="ser1">
                     <div className="ser1content">
                         <span className = "serIcons">&#x1F957;</span>
                         <h3>Quality Food</h3>
-                        <p>When it comes to quality, we take utmost care to ensure that there's a smile on your face while you eat</p>
+                        <p className = "ser1SubText">When it comes to quality, we take utmost care to ensure that there's a smile on your face while you eat</p>
                     </div>
                 </div>
                 <div className="ser2">
                     <div className="ser2content">
                         <span className = "serIcons">&#x1F60B;</span>
                         <h3>Superb Taste</h3>
-                        <p>If it wasn't for the amazing and fresh ingredients we use, we'd never have food that tastes like a million bucks!</p>
+                        <p className = "ser2SubText">If it wasn't for the amazing and fresh ingredients we use, we'd never have food that tastes like a million bucks!</p>
                     </div>
                 </div>
                 <div className="ser3">
