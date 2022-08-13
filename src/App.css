@@ -629,7 +629,6 @@ a{
 .prodDispBlock {
   display: flex;
   flex-direction: row;
-  padding: 0 2rem 0 2rem;
 }
 
 .productLeft {
@@ -638,7 +637,7 @@ a{
 
 .productRight {
   text-align: left;
-  width: 80%;
+  width: 100%;
   margin: 0 0 0 5rem;
 }
 
@@ -1203,10 +1202,6 @@ a{
     display: none;
   }
 
-  .productLeft{
-    display: none;
-  }
-
   .productRight{
     text-align: center;
     margin: 0;
@@ -1218,6 +1213,10 @@ a{
 
   .prodDispBlock{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .prodTitle{
@@ -1399,5 +1398,22 @@ a{
 
   .social{
     margin: 5rem 0 0 0;
+  }
+
+  .categoryLink { 
+    margin: 0 0 0 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .categoryPane{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+  }
+
+  .productLeft {
+    width: 90%;
   }
 }

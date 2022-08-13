@@ -29,14 +29,6 @@ function ProductsPage() {
     return (
         <div id="productDisp">
             <h1 className = "prodTitle">Our Menu</h1>
-            <div className = "mobileCategories">
-                <p className = "mbCat catNameSelected">Sweets</p>
-                <p className = "mbCat">Chaats</p>
-                <p className = "mbCat">Snacks</p>
-                <p className = "mbCat">Parathas</p>
-                <p className = "mbCat">Namkeen</p>
-                <p className = "mbCat">Beverages</p>
-            </div>
             <div className="prodDispBlock">
                 <div className="productLeft">
                     <div className="categoryPane">
