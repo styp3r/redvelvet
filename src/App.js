@@ -13,8 +13,20 @@ import {
 
 
 function App() {
+
+  function handleCloseBurger(){
+    document.getElementById("navDrawer").style.display = "none";
+  }
+
   return (
+    <div>
+    <div id = "navDrawer">
+      <div onClick = {handleCloseBurger}>
+        <p>X</p>
+      </div>
+    </div>
     <BrowserRouter>
+    
       <div className="App">
         <Navbar />
         <Routes>
@@ -26,6 +38,7 @@ function App() {
         </Routes>
       </div>
     </BrowserRouter>
+    </div>
   );
 }
 

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Navbar(){
 
-    function handleCLick(){
-        
+    function handleBurgerClick(){
+        document.getElementById("navDrawer").style.display = "block";
     }
 
     return (
@@ -13,6 +13,7 @@ function Navbar(){
             <div className = "navbarContent">
                 <Link to = "/"><div id = "logo"></div></Link>
                 <div id = "links">
+                <div onClick = {handleBurgerClick} className = "burger"></div>
                 <Link to = "/"><p className = "homeLink">Home</p></Link>
                     <Link to = "products"><p className = "productsLink">Menu</p></Link>
                     <Link to = "about"><p className = "aboutLink">About</p></Link>
