@@ -9,7 +9,6 @@ function Footer() {
                 <div className="footerContent">
                     <div className="footerLeft">
                         <p className="footerLogo">Laddoos</p>
-                        <p className="footerTag">Healthy, Fast-Casual Food, Crafted with &#x2764; In Bengaluru</p>
                         <p className = "copyright">Copyright &#xA9; 2022 Xyka Hotels India Pvt. Ltd. | All rights reserved</p>
                     </div>
                     <div className="footerRight">

@@ -4,9 +4,9 @@ import Navbar from './components/Navbar';
 import ProductsPage from './components/ProductsPage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
-import Fb from './images/Decoration/fbIcon.png';
-import In from './images/Decoration/inIcon.png';
-import Wa from './images/Decoration/waIcon.png';
+import Fb from './images/Decoration/facebook.png';
+import In from './images/Decoration/instagram.png';
+import Wa from './images/Decoration/whatsapp.png';
 
 
 import {
@@ -37,7 +37,10 @@ function App() {
           <div className="social">
             <img className="fb" src={Fb} />
             <a href="https://www.instagram.com/laddoossweetsindia/"><img className="in" src={In} /></a>
-            <img className="wa" src={Wa} />
+            <a href = "https://wa.me/+919945258005"><img className="wa" src={Wa} /></a>
+          </div>
+          <div>
+          <p className="footerTag">Healthy, Fast-Casual Food, Crafted with &#x2764; In Bengaluru</p>
           </div>
         </div>
 

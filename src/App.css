@@ -677,6 +677,7 @@ a{
 
 .categoryPane {
   text-align: left;
+  margin: 0 0 0 2rem;
 }
 
 .categoryLink {
@@ -1411,9 +1412,15 @@ a{
     display: flex;
     flex-direction: row;
     overflow: auto;
+    margin: 0;
   }
 
   .productLeft {
     width: 90%;
+  }
+
+  .footerTag{
+    font-size: 0.7rem;
+    margin: 1rem 0 0 0;
   }
 }
