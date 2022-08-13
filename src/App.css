@@ -574,9 +574,7 @@ a{
 }
 
 .footerLogo {
-  font-family: "Monotype Corsiva";
-  font-style: italic;
-  color: #ff3042;
+  width: 8rem;
 }
 
 .footerLeft {
@@ -1433,7 +1431,7 @@ a{
   #logo {
     margin: 1.5rem 0 0 2rem;
     border: solid 1px #ffffff;
-    width: 6rem;
+    width: 6.5rem;
     height: 2rem;
   }
 }
