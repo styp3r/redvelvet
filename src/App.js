@@ -25,7 +25,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div id = "app-overlay">
       <div id="navDrawer">
         <div className="closeDrawerBtn" onClick={handleCloseBurger}>
           <span class="material-symbols-outlined closeBtn">close</span>

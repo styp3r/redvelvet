@@ -2,7 +2,8 @@ const reviewsList = [
     {
         id: 0,
         name: "Abhilash Devpur",
-        content: "Had the best north indian chat they were truly the best they have proper seatings for upto 20 people at a time and the cleanliness is maintained properly taste of chats and sweets were really good overall great experience"
+        content: "Had the best north indian chat they were truly the best they have proper seatings for upto 20 people at a time and the cleanliness is maintained properly taste of chats and sweets were really good overall great experience",
+        img: "https://lh3.googleusercontent.com/a-/AFdZucrNq8cwdbrX2L5ZXNPl1g_3Zdwptpl9TisWqq3cRmI=w75-h75-p-rp-mo-ba4-br100"
     },
     {
         id: 1,

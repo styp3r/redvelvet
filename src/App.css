@@ -104,6 +104,20 @@ a{
   padding: 1rem 0 0 0;
 }
 
+.revImg{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  border: solid 3px #ff8080;
+  overflow: hidden;
+}
+
+.avatarImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #logo {
   margin: 1rem 0 0 5rem;
   border: solid 2px #ffffff;
@@ -476,6 +490,7 @@ a{
 
 .reviewText{
   text-align: left;
+  margin: 5rem 0 0 0;
 }
 
 #bestsellersSection {
@@ -1055,10 +1070,18 @@ a{
     width: 80%;
   }
 
-  .exploreMenuBtn{
+  .exploreMenuBtn, .exploreStoryBtn{
     width: 10rem;
     text-align: center;
     padding: 0;
+  }
+
+  .servicesTitle{
+    width: 80%;
+  }
+
+  .aboutContent, .revTitleBlock, .platContent{
+    text-align: center;
   }
 
   .bestSellersBg {
@@ -1322,7 +1345,7 @@ a{
 
   .contactHeader {
     display: flex;
-    height: 50rem;
+    height: 53rem;
     flex-direction: column;
   }
 
@@ -1332,7 +1355,7 @@ a{
   }
 
   .contactGirl{
-    margin: 20rem 0 0 0;;
+    margin: 23rem 0 0 0;;
     left: 0;
   }
 
@@ -1347,7 +1370,7 @@ a{
   .contactHeaderSubText {
     width: 20rem;
     text-align: center;
-    margin: 10rem 0 0 0;
+    margin: 12rem 0 0 0;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1431,5 +1454,14 @@ a{
 
   .copyright{
     font-size: 0.6rem;
+  }
+
+  .reviewText{
+    margin: 5rem 0 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

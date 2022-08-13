@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import ReviewsList from './ReviewsList';
 import ReviewArt from '../images/Decoration/reviewArt.jpg';
+import Avatar from '../images/Decoration/avatar.png';
 
 function Reviews() {
     
@@ -38,6 +39,9 @@ function Reviews() {
                     </div>
                     <div className = "reviewBox">
                         <div className = "reviewText">
+                            <div className = "revImg">
+                                <img className = "avatarImg" src = {Avatar}/>
+                            </div>
                             <h3>{ReviewsList.map(dispRevName)}</h3>
                             <p  className = "colorGrey">{ReviewsList.map(dispRev)}</p>
                         </div>
