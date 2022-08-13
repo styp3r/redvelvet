@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Logo from '../images/Decoration/laddoosLogo.jpg';
 
 function Navbar(){
 
@@ -11,7 +12,7 @@ function Navbar(){
         <div id = "navbar">
             <div className = "navbarBlock">
             <div className = "navbarContent">
-                <Link to = "/"><div id = "logo"></div></Link>
+                <Link to = "/"><div id = "logo"><img className = "laddoosLogo" src = {Logo}/></div></Link>
                 <div id = "links">
                 <div onClick = {handleBurgerClick} className = "burger"><span class="material-symbols-outlined">menu</span></div>
                 <Link to = "/"><p className = "homeLink">Home</p></Link>
