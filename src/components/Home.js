@@ -7,6 +7,9 @@ import Reviews from './Reviews';
 import Footer from './Footer';
 
 function Home() {
+
+
+
     return (
         <div>
             <Hero />

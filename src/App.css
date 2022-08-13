@@ -48,12 +48,13 @@ li{
 }
 
 #navDrawer{
-  position: absolute;
+  position: fixed;
   z-index: 100;
   width: 100%;
   height: 30rem;
-  background-color: #1aaf76;
+  background-color: #ffffff;
   display: none;
+  border-radius: 0 0 2rem 2rem;
 }
 
 .burger{
@@ -1362,6 +1363,11 @@ li{
   }
 
   .burger{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    background: linear-gradient(90deg, #20d992, #25bbd2);
   }
 }

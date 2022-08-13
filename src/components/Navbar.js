@@ -13,7 +13,7 @@ function Navbar(){
             <div className = "navbarContent">
                 <Link to = "/"><div id = "logo"></div></Link>
                 <div id = "links">
-                <div onClick = {handleBurgerClick} className = "burger"></div>
+                <div onClick = {handleBurgerClick} className = "burger"><span class="material-symbols-outlined">menu</span></div>
                 <Link to = "/"><p className = "homeLink">Home</p></Link>
                     <Link to = "products"><p className = "productsLink">Menu</p></Link>
                     <Link to = "about"><p className = "aboutLink">About</p></Link>
