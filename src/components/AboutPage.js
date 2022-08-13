@@ -1,6 +1,7 @@
 import AboutPageHeader from '../images/Decoration/aboutPageHeader.jpg';
 import Footer from '../components/Footer';
 import Condiments from '../images/Decoration/condiments.jpg';
+import MobileFooter from './MobileFooter';
 
 function AboutPage() {
 
@@ -78,6 +79,7 @@ function AboutPage() {
             </div>
 
             <Footer />
+            <MobileFooter />
         </div>
     );
 }

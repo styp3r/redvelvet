@@ -15,8 +15,8 @@ function Footer() {
                     <div className="footerRight">
                         <div className="social">
                             <img className="fb" src={Fb} />
-                            <a href="https://www.instagram.com/laddoossweetsindia/"><img className="in" src={In} /></a>
-                            <img className="wa" src={Wa} />
+                            <a target = "_blank" href ="https://www.instagram.com/laddoossweetsindia/"><img className="in" src={In} /></a>
+                            <a target = "_blank" href = "https://wa.me/+919945258005"><img className="wa" src={Wa} /></a>
                         </div>
                     </div>
                 </div>

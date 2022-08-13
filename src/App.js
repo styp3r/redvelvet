@@ -18,6 +18,8 @@ import {
 
 function App() {
 
+  document.title = "Laddoos Sweets";
+
   function handleCloseBurger() {
     document.getElementById("navDrawer").style.display = "none";
   }
@@ -36,8 +38,8 @@ function App() {
 
           <div className="social">
             <img className="fb" src={Fb} />
-            <a href="https://www.instagram.com/laddoossweetsindia/"><img className="in" src={In} /></a>
-            <a href = "https://wa.me/+919945258005"><img className="wa" src={Wa} /></a>
+            <a target = "_blank" href="https://www.instagram.com/laddoossweetsindia/"><img className="in" src={In} /></a>
+            <a target = "_blank" href = "https://wa.me/+919945258005"><img className="wa" src={Wa} /></a>
           </div>
           <div>
           <p className="footerTag">Healthy, Fast-Casual Food, Crafted with &#x2764; In Bengaluru</p>

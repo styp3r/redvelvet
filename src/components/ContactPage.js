@@ -1,6 +1,7 @@
 import Girl from '../images/Decoration/contactGirl.png';
 import Footer from '../components/Footer';
 import Map from './Map';
+import MobileFooter from './MobileFooter';
 
 function ContactPage() {
 
@@ -42,6 +43,7 @@ function ContactPage() {
             </div>
 
             <Footer />
+            <MobileFooter />
         </div>
     );
 }

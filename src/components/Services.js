@@ -12,7 +12,7 @@ function Services() {
                     <div className="ser1content">
                         <span className = "serIcons">&#x1F957;</span>
                         <h3>Quality Food</h3>
-                        <p className = "ser1SubText">When it comes to quality, we take utmost care to ensure that there's a smile on your face while you eat</p>
+                        <p className = "ser1SubText">When it comes to quality, we take utmost care to ensure that we make the best food so you keep coming back for more!</p>
                     </div>
                 </div>
                 <div className="ser2">

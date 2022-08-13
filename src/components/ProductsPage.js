@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ProductBox from './ProductBox';
 import ItemList from './ItemList';
 import Footer from '../components/Footer';
+import MobileFooter from './MobileFooter';
 
 function ProductsPage() {
 
@@ -46,6 +47,7 @@ function ProductsPage() {
                 </div>
             </div>
             <Footer />
+            <MobileFooter />
         </div>
     );
 }

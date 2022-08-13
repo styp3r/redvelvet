@@ -5,10 +5,9 @@ import Services from './Services';
 import Platforms from './Platforms';
 import Reviews from './Reviews';
 import Footer from './Footer';
+import MobileFooter from './MobileFooter';
 
 function Home() {
-
-
 
     return (
         <div>
@@ -19,6 +18,7 @@ function Home() {
             <Platforms />
             <Reviews />
             <Footer />
+            <MobileFooter />
         </div>
     );
 }
