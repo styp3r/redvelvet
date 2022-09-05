@@ -41,7 +41,7 @@ function AboutPage() {
                 <div className="stats1">
                     <div className="statBlock">
                         <span class="material-symbols-outlined abIcons">diversity_3</span>
-                        <p>We have a team of more than 200 people who love to serve delicious food for our customers and we work round the clock to make that happen!</p>
+                        <p>We have a team of more than 100 people who love to serve delicious food for our customers and we work round the clock to make that happen!</p>
                     </div>
                 </div>
                 <div className="stats2">
