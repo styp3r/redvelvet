@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import HeroImg from '../images/Decoration/heroImg.png';
-import LazyLoad from 'react-lazyload';
+import LazyLoad from 'react-lazy-load';
 
 function Hero(){
     return (
