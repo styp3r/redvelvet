@@ -30,8 +30,6 @@ function AboutPage() {
                             <li>Doddanekundi</li>
                             <li>Horamavu</li>
                             <li>Bellandur</li>
-                            <hr />
-                            <h4>Upcoming :</h4>
                             <li>Kasturinagar</li>
                         </ul>
                     </div>
