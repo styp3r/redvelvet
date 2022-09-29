@@ -2,6 +2,7 @@ import Girl from '../images/Decoration/contactGirl.png';
 import Footer from '../components/Footer';
 import Map from './Map';
 import MobileFooter from './MobileFooter';
+import LazyLoad from 'react-lazy-load';
 
 function ContactPage() {
 
@@ -14,7 +15,7 @@ function ContactPage() {
                     <p className="contactHeaderSubText">We love talking to our customers whether it is related to feedback to make our services better suited for you or to discuss any business propositions or collaborations. We're on-board with anything you might have to tell us!</p>
                 </div>
                 <div className = "ctRight">
-                    <img className="contactGirl" src={Girl} />
+                    <LazyLoad><img className="contactGirl" src={Girl} /></LazyLoad>
                 </div>
             </div>
             <div className="contactMid">

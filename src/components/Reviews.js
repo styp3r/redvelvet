@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import ReviewsList from './ReviewsList';
 import ReviewArt from '../images/Decoration/reviewArt.jpg';
 import Avatar from '../images/Decoration/avatar.png';
+import LazyLoad from 'react-lazy-load';
 
 function Reviews() {
     
@@ -53,7 +54,7 @@ function Reviews() {
                     </div>
                 </div>
                 <div className="revRight">
-                    <img className = "reviewArtRight" src = {ReviewArt} />
+                    <LazyLoad><img className = "reviewArtRight" src = {ReviewArt} /></LazyLoad>
                 </div>
             </div>
         </div>

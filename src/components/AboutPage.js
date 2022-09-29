@@ -2,13 +2,14 @@ import AboutPageHeader from '../images/Decoration/aboutPageHeader.jpg';
 import Footer from '../components/Footer';
 import Condiments from '../images/Decoration/condiments.jpg';
 import MobileFooter from './MobileFooter';
+import LazyLoad from 'react-lazy-load';
 
 function AboutPage() {
 
     window.scrollTo(0, 0);
     return (
         <div id="aboutPage">
-            <img className="condiments" src={Condiments} />
+            <LazyLoad><img className="condiments" src={Condiments} /></LazyLoad>
             <h1 className="prodTitle">About Us</h1>
             <div className="aboutTextSection">
 
