@@ -9,7 +9,7 @@ function AboutPage() {
     window.scrollTo(0, 0);
     return (
         <div id="aboutPage">
-            <LazyLoad><img className="condiments" src={Condiments} /></LazyLoad>
+            <img className="condiments" src={Condiments} />
             <h1 className="prodTitle">About Us</h1>
             <div className="aboutTextSection">
 
