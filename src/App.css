@@ -438,8 +438,9 @@ a {
 }
 
 .reviewArtRight {
-  width: 75%;
-  height: 70%;
+  width: 45rem;
+  height: 30rem;
+  margin: 5rem 0 0 0;
 }
 
 .reviewBox {
