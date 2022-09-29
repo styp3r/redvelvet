@@ -26,10 +26,9 @@ function ContactPage() {
                 </div>
                 <div className="meetUs">
                     <div className="meetUsText">
-                        <h3>Meet Us</h3>
+                        <h3>Contact Us</h3>
                         <p className="space"><span class="material-symbols-outlined phoneIcon">call</span> +91 99452 58005</p>
                         <p className="space"><span class="material-symbols-outlined mailIcon">mail</span> laddoos@ymail.com</p>
-                        <p className="space"><span class="material-symbols-outlined locIcon">location_on</span> "Hemkund", BMP No. 10, 14th D Cross, Behind GR Regency apartments, Baghmane Techpark Back Gate, Byrasandra, GM Palya, new Thippasandra Post, Bengaluru, India 560 075</p>
                     </div>
                 </div>
                 <div className="pitchUs">

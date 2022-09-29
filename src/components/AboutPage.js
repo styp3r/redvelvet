@@ -46,13 +46,13 @@ function AboutPage() {
                 <div className="stats2">
                     <div className="statBlock">
                         <span class="material-symbols-outlined abIcons">storefront</span>
-                        <p>With 8 operational outlets, 1 in the pipeline, and many more to come, Laddoos is determined to become a household brand in the coming years.</p>
+                        <p>With 9 operational outlets, and many more to come, Laddoos is determined to become a household brand that everyone loves.</p>
                     </div>
                 </div>
                 <div className="stats3">
                     <div className="statBlock">
                         <span class="material-symbols-outlined abIcons">shopping_bag</span>
-                        <p>We serve more than XYZ customers every year who love our food and we focus on increasing our customer base by operating in happening locations.</p>
+                        <p>We serve thousands of customers every year who love our food and we focus on increasing our customer base by operating in happening locations.</p>
                     </div>
                 </div>
                 <div className="stats4">
