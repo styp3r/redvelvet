@@ -12,7 +12,7 @@ function Services() {
                     <div className="ser1content">
                         <span className = "serIcons">&#x1F957;</span>
                         <h3>Quality Food</h3>
-                        <p className = "ser1SubText">When it comes to quality, we take utmost care to ensure that we make the best food so you keep coming back for more!</p>
+                        <p className = "ser1SubText">When it comes to quality, we take utmost care to ensure that we make the best food so you keep coming back!</p>
                     </div>
                 </div>
                 <div className="ser2">
@@ -26,14 +26,14 @@ function Services() {
                     <div className="ser3content">
                         <span className = "serIcons">&#x1F64C;</span>
                         <h3>Hygiene First</h3>
-                        <p className = "colorGrey">We take health and hygiene very seriously and have taken the necessary precautions to combat every health hazard</p>
+                        <p className = "ser3SubText">We take health and hygiene very seriously and have taken the necessary precautions to combat every health hazard</p>
                     </div>
                 </div>
                 <div className="ser4">
                     <div className="ser4content">
                         <span className = "serIcons">&#x1F4AF;</span>
                         <h3>Huge Collection</h3>
-                        <p className = "colorGrey">With over 200 items in our collection, we are proud to offer you the widest range of sweets, chaats, snacks and parathas</p>
+                        <p className = "ser4SubText">With over 200 items in our collection, we are proud to offer you the widest range of sweets, chaats, snacks and parathas</p>
                     </div>
                 </div>
             </div>
