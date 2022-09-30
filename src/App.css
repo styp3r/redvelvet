@@ -196,15 +196,18 @@ a {
 }
 
 .exploreMenuBtn {
-  width: 15rem;
+  width: 12rem;
   height: 3rem;
   border: none;
   border-radius: 1rem;
   background-color: #ffffff;
   color: #ffadad;
   text-align: left;
-  padding: 0 0 0 1rem;
+  padding: 0 1rem 0 1rem;
   margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   box-shadow: 0 3px 12px 0.1px #944a4a;
 }
 
@@ -914,7 +917,7 @@ a {
 .meetUs {
   width: 32rem;
   height: 34rem;
-  background-color: #ffffff;
+  background-color: #3d3d3d;
   text-align: left;
   display: flex;
   justify-content: center;
@@ -922,6 +925,7 @@ a {
 }
 
 .meetUsText {
+  color: #ffffff;
   width: 20rem;
   text-align: left;
 }
@@ -975,7 +979,7 @@ a {
   border: none;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 1rem;
-  background: linear-gradient(90deg, #20d992, #25bbd2);
+  background-color: #fc6262;
 }
 
 .pitchBtn:hover {
@@ -983,7 +987,7 @@ a {
 }
 
 .pitchBtn:active {
-  background: linear-gradient(90deg, #1aaf76, #1d92a4);
+  background-color: #d45151;
 }
 
 .mapView {
@@ -1056,7 +1060,19 @@ a {
     width: 80%;
   }
 
-  .exploreMenuBtn,
+  .rightHeroContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .exploreMenuBtn{
+    width: 12rem;
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+  }
+
   .exploreStoryBtn {
     width: 10rem;
     text-align: center;
@@ -1419,7 +1435,7 @@ a {
     align-items: center;
     border-radius: 0.5rem;
     color: #ffffff;
-    background: linear-gradient(90deg, #20d992, #25bbd2);
+    background-color: #ffb3b3;
   }
 
   .social {

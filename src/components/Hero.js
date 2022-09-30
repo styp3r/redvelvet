@@ -15,7 +15,7 @@ function Hero(){
                     <div className = "rightHeroContent">
                         <h1 className = "rightHeroTitle">Authentic Indian Sweets and Chaats</h1>
                         <p className = "rightHeroSubtext">At Laddoos, we welcome you to dwell into our collection of fresh and tasty food that will leave you wanting more!</p>
-                        <Link to = "products"><button className = "exploreMenuBtn">Explore Menu</button></Link >
+                        <Link to = "products"><div className = "exploreMenuBtn">Explore Menu <span class="material-symbols-outlined">arrow_circle_right</span></div></Link >
                     </div>
                     
                 </div>
