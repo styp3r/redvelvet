@@ -1,5 +1,5 @@
 import React from 'react';
-import DahiPuri from '../images/Decoration/rajKach.png';
+import PavBhaji from '../images/Decoration/pavBhajiDecoration.png';
 import { Link } from "react-router-dom";
 
 function About(){
@@ -7,7 +7,7 @@ function About(){
         <div id = "aboutSection">
             <div className = "aboutBlocks">
                 <div className = "blockLeft">
-                    <img className = "dahiPuri" src = {DahiPuri}/>
+                    <img className = "pavBhaji" src = {PavBhaji}/>
                 </div>
                 <div className = "blockRight">
                     <div className = "aboutContent">

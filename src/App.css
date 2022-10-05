@@ -84,11 +84,20 @@ a {
   align-items: center;
 }
 
+.brush{
+  position: absolute;
+  left: 8rem;
+  top: 8rem;
+  z-index: 0
+}
+
 .heroImgLeft {
+  position: relative;
   width: 100%;
   height: 75%;
   object-fit: fill;
   margin: 2rem 0 0 0;
+  z-index: 1;
 }
 
 #navbar {
@@ -265,6 +274,13 @@ a {
   align-items: center;
 }
 
+.aboutDesign{
+  width: 100%;
+  height: 60rem;
+  position: absolute;
+  top: 10rem;
+}
+
 .aboutContent {
   width: 30rem;
   text-align: left;
@@ -346,9 +362,6 @@ a {
 .orderArt {
   width: 75%;
   height: 60%;
-  border-radius: 2rem;
-  object-fit: fill;
-  box-shadow: 0 3px 12px 0.1px #adadad;
 }
 
 .swiggy {
@@ -640,6 +653,7 @@ a {
 .prodTitle {
   padding: 2rem;
   margin: 0 0 0 2rem;
+  position: relative;
 }
 
 #productBox {
@@ -726,6 +740,7 @@ a {
   display: flex;
   width: 100%;
   height: 30rem;
+  position: relative;
 }
 
 .aboutTextLeft {
@@ -735,6 +750,10 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  margin: 3rem 0 0 5rem;
+  box-shadow: 0 3px 12px 0.1px #d2d2d2;
 }
 
 .aboutText {
@@ -746,6 +765,8 @@ a {
   width: 100%;
   height: 17rem;
   object-fit: cover;
+  position: relative;
+  z-index: 1;
 }
 
 .officeAddress {
@@ -755,6 +776,7 @@ a {
   justify-content: center;
   align-items: center;
   color: #ffffff;
+  margin: 3rem 0 0 0;
 }
 
 .officeAddressText {
@@ -781,9 +803,10 @@ a {
   width: 25%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  margin: 2rem 0 0 0;
 }
 
 .abIcons {
@@ -795,12 +818,12 @@ a {
   font-size: 3rem;
 }
 
-.dahiPuri {
+.pavBhaji {
   width: 90%;
   height: 100%;
   object-fit: contain;
   overflow: hidden;
-  margin: 0 0 0 10rem;
+  margin: 0 0 0 7rem;
 }
 
 .statBlock {
@@ -1048,11 +1071,22 @@ a {
     align-items: center;
   }
 
+  .brush{
+    position: absolute;
+    left: 6rem;
+    top: 7rem;
+    z-index: 0;
+    width: 17rem;
+    height: 17rem;
+  }
+
   .heroImgLeft {
+    position: relative;
     width: 21rem;
     height: 15rem;
     object-fit: fill;
     margin: 2rem 0 0 0;
+    z-index: 1;
   }
 
   .rightHero {

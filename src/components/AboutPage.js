@@ -2,7 +2,7 @@ import AboutPageHeader from '../images/Decoration/aboutPageHeader.jpg';
 import Footer from '../components/Footer';
 import Condiments from '../images/Decoration/condiments.jpg';
 import MobileFooter from './MobileFooter';
-import LazyLoad from 'react-lazy-load';
+import AboutDesign from '../images/Decoration/aboutDesign.jpg';
 
 function AboutPage() {
 
@@ -10,6 +10,7 @@ function AboutPage() {
     return (
         <div id="aboutPage">
             <img className="condiments" src={Condiments} />
+            <img className="aboutDesign" src={AboutDesign} />
             <h1 className="prodTitle">About Us</h1>
             <div className="aboutTextSection">
 

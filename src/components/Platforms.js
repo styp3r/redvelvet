@@ -1,5 +1,5 @@
 import React from 'react';
-import OnlineOrder from '../images/Decoration/onlineOrder.jpg';
+import OnlineOrder from '../images/Decoration/takeAway.png';
 import LazyLoad from 'react-lazy-load';
 
 function Platforms(){
@@ -7,7 +7,7 @@ function Platforms(){
         <div id = "platformsSection">
             <div className = "platformsBlocks">
                 <div className = "platLeft">
-                    <LazyLoad><img className = "orderArt" src = {OnlineOrder}/></LazyLoad>
+                    <LazyLoad><img className = "orderArt" src = {OnlineOrder} alt = "Loading..."/></LazyLoad>
                 </div>
                 <div  className = "platRight">
                     <div className = "platContent">
