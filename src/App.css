@@ -974,6 +974,59 @@ a {
   height: 20rem;
 }
 
+.subscribe{
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+  height: 25rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 3px 12px 0.1px #d2d2d2;
+}
+
+.subscribeImg{
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.subscribeText{
+  width: 60%;
+  height: 100%;
+  text-align: left;
+  padding: 2rem;
+}
+
+.subscribeTextBlock{
+  margin: 3rem 0 0 0;
+}
+
+.emailSubcribeInput{
+  width: 15rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: solid 1px #d2d2d2;
+  margin: 2rem 0 0 0;
+}
+
+.emailSubscribeSendBtn{
+  background-color: #c9a75e;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+}
+
+.emailSubscribeSendBtn:hover{
+  cursor: pointer;
+}
+
+.emailSubscribeSendBtn:active{
+  background-color: #8c7442;
+}
+
 @media only screen and (max-width: 768px) {
   .heroBg {
     width: 100%;
@@ -1416,6 +1469,27 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .subscribe{
+    width: 20rem;
+  }
+
+  .subscribeImg{
+    display: none;
+  }
+
+  .subscribeText{
+    width: 100%;
+  }
+
+  .subscribeTextBlock{
+    text-align: center;
+  }
+
+  .emailSubscribeSendBtn{
+    width: 5rem;
+    margin: 1rem 0 0 0;
   }
 }
 
