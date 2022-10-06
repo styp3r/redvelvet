@@ -4,9 +4,28 @@ import MobileFooter from './MobileFooter';
 import AboutDesign from '../images/Decoration/aboutDesign.jpg';
 import SubscribeBg from '../images/Decoration/subscribeBg.jpg';
 
-function AboutPage() {
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+const AboutPage = () => {
 
     window.scrollTo(0, 0);
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        document.getElementById("subscribeSuccess").style.display = "block";
+        e.preventDefault();
+
+        emailjs.sendForm('service_na36t7j', 'template_kjrcdlu', form.current, 'BPrKaRkebDZqC0Zs3')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+
     return (
         <div id="aboutPage">
             <img className="aboutPageHeaderImg" src={AboutPageHeader} alt="loading..." />
@@ -70,8 +89,12 @@ function AboutPage() {
                     <div className = "subscribeTextBlock">
                         <h2>STAY IN TOUCH</h2>
                         <p>Subscribe to our newsletter and never miss out on our exclusive offers and perks!</p>
-                        <input className="emailSubcribeInput" type="email" placeholder="email@example.com" />
-                        <button className="emailSubscribeSendBtn">Send</button>
+
+                        <form ref={form} onSubmit={sendEmail}>
+                            <input className="emailSubcribeInput" name="user_email" placeholder="email@example.com" type="email" required/>
+                            <button type="submit" value="Send" className="emailSubscribeSendBtn">Subscribe</button>
+                            <p id = "subscribeSuccess">Subscribed!</p>
+                        </form>
                     </div>
                 </div>
             </div>

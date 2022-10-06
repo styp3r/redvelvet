@@ -1032,6 +1032,12 @@ a {
   display: none;
 }
 
+#subscribeSuccess{
+  color: #2ad21e;
+  font-size: 0.8rem;
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .heroBg {
     width: 100%;
