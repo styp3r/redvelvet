@@ -40,25 +40,25 @@ function AboutPage() {
             <div className="aboutPageStats">
                 <div className="stats1">
                     <div className="statBlock">
-                        <span class="material-symbols-outlined abIcons">diversity_3</span>
+                        <span className="material-symbols-outlined abIcons">diversity_3</span>
                         <p>We have a team of more than 100 people who love to serve delicious food for our customers and we work round the clock to make that happen!</p>
                     </div>
                 </div>
                 <div className="stats2">
                     <div className="statBlock">
-                        <span class="material-symbols-outlined abIcons">storefront</span>
+                        <span className="material-symbols-outlined abIcons">storefront</span>
                         <p>With 9 operational outlets, and many more to come, Laddoos is determined to become a household brand that everyone loves.</p>
                     </div>
                 </div>
                 <div className="stats3">
                     <div className="statBlock">
-                        <span class="material-symbols-outlined abIcons">shopping_bag</span>
+                        <span className="material-symbols-outlined abIcons">shopping_bag</span>
                         <p>We serve thousands of customers every year who love our food and we focus on increasing our customer base by operating in happening locations.</p>
                     </div>
                 </div>
                 <div className="stats4">
                     <div className="statBlock">
-                        <span class="material-symbols-outlined abIcons">currency_rupee</span>
+                        <span className="material-symbols-outlined abIcons">currency_rupee</span>
                         <p>We want to give the best possible experience in the most cost efficient manner possible which is why we have designed our collection to suit every budget. </p>
                     </div>
                 </div>
