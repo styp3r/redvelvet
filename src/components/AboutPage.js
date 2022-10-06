@@ -1,6 +1,5 @@
-import AboutPageHeader from '../images/Decoration/aboutPageHeader.jpg';
+import AboutPageHeader from '../images/Decoration/aboutPageHeader1.jpg';
 import Footer from '../components/Footer';
-import Condiments from '../images/Decoration/condiments.jpg';
 import MobileFooter from './MobileFooter';
 import AboutDesign from '../images/Decoration/aboutDesign.jpg';
 
@@ -9,12 +8,12 @@ function AboutPage() {
     window.scrollTo(0, 0);
     return (
         <div id="aboutPage">
-            <img className="condiments" src={Condiments} />
-            <img className="aboutDesign" src={AboutDesign} />
+            <img className="aboutPageHeaderImg" src={AboutPageHeader} />
             <h1 className="prodTitle">About Us</h1>
             <div className="aboutTextSection">
 
                 <div className="aboutTextLeft">
+                    <img className = "aboutDesign" src ={AboutDesign} />
                     <p className="aboutText">Being in the food and beverages business for over a decade, we started with just one shop in 1998. Serving only the freshest that human hands can make, we are honoured to provide the people of Bengaluru with the best collection of Sweets, Chaats, Snacks and Parathas along with a few classical beverages.</p>
                     <p className="aboutText">We understand the fundamental human emotion behind tasting good food and strive to provide the most memorable experience for your taste buds, turning fresh ingredients into juicy and masala laden crispy food that would leave you craving for more!</p>
                 </div>
@@ -60,20 +59,6 @@ function AboutPage() {
                     <div className="statBlock">
                         <span class="material-symbols-outlined abIcons">currency_rupee</span>
                         <p>We want to give the best possible experience in the most cost efficient manner possible which is why we have designed our collection to suit every budget. </p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="aboutSubBlock">
-                <div className="abHeaderBlock">
-                    <div className = "subscribeBgMobile">
-                        <div className = "filter"></div>
-                        <img className="aboutPageHeader" src={AboutPageHeader}></img>
-                    </div>
-                    <div className="abHeaderText">
-                        <p className="subscribeText">Subscribe To Our Mailing List To Get Great Offers!</p>
-                        <input className="emailInput" placeholder="Email" type="email" />
-                        <button className="subBtn">Subscribe</button>
                     </div>
                 </div>
             </div>

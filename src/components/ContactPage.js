@@ -10,11 +10,11 @@ function ContactPage() {
     return (
         <div id="contactBlock">
             <div className="contactHeader">
-                <div className = "ctLeft">
+                <div className="ctLeft">
                     <p className="contactHeaderText">Let's have a talk.</p>
                     <p className="contactHeaderSubText">We love talking to our customers whether it is related to feedback to make our services better suited for you or to discuss any business propositions or collaborations. We're on-board with anything you might have to tell us!</p>
                 </div>
-                <div className = "ctRight">
+                <div className="ctRight">
                     <LazyLoad><img className="contactGirl" src={Girl} /></LazyLoad>
                 </div>
             </div>
