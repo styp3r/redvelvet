@@ -7,12 +7,12 @@ import LogoFooter from '../images/Decoration/logoFooter.jpg';
 function MobileFooter() {
     return (
         <div id="mobileFooter">
-            <img className="footerLogo" src={LogoFooter} />
+            <img alt = "loading..." className="footerLogo" src={LogoFooter} />
             <p className="copyright">Copyright &#xA9; 2022 Xyka Hotels India Pvt. Ltd. | All rights reserved</p>
             <div className="social">
-                <img className="fb" src={Fb} />
-                <a target = "_blank" href="https://www.instagram.com/laddoossweetsindia/"><img className="in" src={In} /></a>
-                <a target = "_blank" href = "https://wa.me/+919945258005"><img className="wa" src={Wa} /></a>
+                <img alt = "loading..." className="fb" src={Fb} />
+                <a aria-label="Redirects user to our Instagram profile" target = "_blank" rel="noreferrer" href="https://www.instagram.com/laddoossweetsindia/"><img alt = "loading..." className="in" src={In} /></a>
+                <a aria-label="Redirects user to our WhatsApp Chat" target = "_blank" rel="noreferrer" href = "https://wa.me/+919945258005"><img alt = "loading..." className="wa" src={Wa} /></a>
             </div>
         </div>
     );

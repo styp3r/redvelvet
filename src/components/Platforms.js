@@ -16,9 +16,9 @@ function Platforms() {
                         <h1>Simple Way To Order Your Food</h1>
                         <p className="colorGrey">We have partnered up with the leading delivery executives in the city to give you a seamless way of ordering our food so you can enjoy top-quality deliciousness wherever you are. So, what are you waiting for?</p>
                         <p className="orderNowText">Order Now!</p>
-                        <a target = "_blank" href = "https://www.swiggy.com/"><button className="swiggy">Swiggy</button></a>
-                        <a target = "_blank" href = "https://www.zomato.com/"><button className="zomato">Zomato</button></a>
-                        <a target = "_blank" href ="https://www.amazon.in/primefood/"><button className="amazon">Amazon</button></a>
+                        <a aria-label="Redirects user to Swiggy" target = "_blank" rel="noreferrer" href = "https://www.swiggy.com/"><button className="swiggy">Swiggy</button></a>
+                        <a aria-label="Redirects user to Zomato" target = "_blank" rel="noreferrer" href = "https://www.zomato.com/"><button className="zomato">Zomato</button></a>
+                        <a aria-label="Redirects user to our Amazon" target = "_blank" rel="noreferrer" href ="https://www.amazon.in/primefood/"><button className="amazon">Amazon</button></a>
                     </div>
                 </div>
             </div>

@@ -8,12 +8,12 @@ function AboutPage() {
     window.scrollTo(0, 0);
     return (
         <div id="aboutPage">
-            <img className="aboutPageHeaderImg" src={AboutPageHeader} />
+            <img className="aboutPageHeaderImg" src={AboutPageHeader} alt = "loading..."/>
             <h1 className="prodTitle">About Us</h1>
             <div className="aboutTextSection">
 
                 <div className="aboutTextLeft">
-                    <img className = "aboutDesign" src ={AboutDesign} />
+                    <img className = "aboutDesign" src ={AboutDesign} alt = "loading..."/>
                     <p className="aboutText">Being in the food and beverages business for over a decade, we started with just one shop in 1998. Serving only the freshest that human hands can make, we are honoured to provide the people of Bengaluru with the best collection of Sweets, Chaats, Snacks and Parathas along with a few classical beverages.</p>
                     <p className="aboutText">We understand the fundamental human emotion behind tasting good food and strive to provide the most memorable experience for your taste buds, turning fresh ingredients into juicy and masala laden crispy food that would leave you craving for more!</p>
                 </div>

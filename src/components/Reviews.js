@@ -41,20 +41,20 @@ function Reviews() {
                     <div className = "reviewBox">
                         <div className = "reviewText">
                             <div className = "revImg">
-                                <img className = "avatarImg" src = {Avatar}/>
+                                <img alt = "loading..." className = "avatarImg" src = {Avatar}/>
                             </div>
                             <h3>{ReviewsList.map(dispRevName)}</h3>
                             <p  className = "colorGrey">{ReviewsList.map(dispRev)}</p>
                         </div>
                         <button className = "revNextBtn" onClick={handleClick}>
                             <div className = "alArrowDiv">
-                                <span class="material-symbols-outlined">chevron_right</span>
+                                <span className="material-symbols-outlined">chevron_right</span>
                             </div>
                         </button>
                     </div>
                 </div>
                 <div className="revRight">
-                    <LazyLoad><img className = "reviewArtRight" src = {ReviewArt} /></LazyLoad>
+                    <LazyLoad><img alt = "loading..." className = "reviewArtRight" src = {ReviewArt} /></LazyLoad>
                 </div>
             </div>
         </div>

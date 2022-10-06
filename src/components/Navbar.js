@@ -12,9 +12,9 @@ function Navbar(){
         <div id = "navbar">
             <div className = "navbarBlock">
             <div className = "navbarContent">
-                <Link to = "/"><div id = "logo"><img className = "laddoosLogo" src = {Logo}/></div></Link>
+                <Link to = "/" aria-label="Redirects user to Home Page"><div id = "logo"><img alt = "loading..." className = "laddoosLogo" src = {Logo}/></div></Link>
                 <div id = "links">
-                <div onClick = {handleBurgerClick} className = "burger"><span class="material-symbols-outlined">menu</span></div>
+                <div onClick = {handleBurgerClick} className = "burger"><span className="material-symbols-outlined">menu</span></div>
                 <Link to = "/"><p className = "homeLink">Home</p></Link>
                     <Link to = "products"><p className = "productsLink">Menu</p></Link>
                     <Link to = "about"><p className = "aboutLink">About</p></Link>

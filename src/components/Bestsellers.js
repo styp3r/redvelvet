@@ -7,7 +7,7 @@ function Bestsellers(){
 
     function dispBest(best){
         if(best.bestseller === true){
-            return <ItemBox key = {best.id} img = {best.img}/>;
+            return <ItemBox key = {best.id} id = {best.id} img = {best.img}/>;
         }
     }
 

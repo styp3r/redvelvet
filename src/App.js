@@ -28,18 +28,18 @@ function App() {
     <div id = "app-overlay">
       <div id="navDrawer">
         <div className="closeDrawerBtn" onClick={handleCloseBurger}>
-          <span class="material-symbols-outlined closeBtn">close</span>
+          <span id = "closeBtn" className="material-symbols-outlined">close</span>
         </div>
         <div className="drawerLinks">
-          <a href={'/'}><p className="dLink">Home</p></a>
-          <a href={'/products'}><p className="dLink">Menu</p></a>
-          <a href={'/about'}><p className="dLink">About Us</p></a>
-          <a href={'/contact'}><p className="dLink">Contact Us</p></a>
+          <a aria-label = "redirects user to home page" href={'/'}><p className="dLink">Home</p></a>
+          <a aria-label = "redirects user to products page" href={'/products'}><p className="dLink">Menu</p></a>
+          <a aria-label = "redirects user to about page" href={'/about'}><p className="dLink">About Us</p></a>
+          <a aria-label = "redirects user to contact page" href={'/contact'}><p className="dLink">Contact Us</p></a>
 
           <div className="social">
-            <img className="fb" src={Fb} />
-            <a target = "_blank" href="https://www.instagram.com/laddoossweetsindia/"><img className="in" src={In} /></a>
-            <a target = "_blank" href = "https://wa.me/+919945258005"><img className="wa" src={Wa} /></a>
+            <img alt = "loading..." className="fb" src={Fb} />
+            <a target = "_blank" rel="noreferrer" href="https://www.instagram.com/laddoossweetsindia/"><img alt = "loading..." className="in" src={In} /></a>
+            <a target = "_blank" rel="noreferrer" href = "https://wa.me/+919945258005"><img alt = "loading..." className="wa" src={Wa} /></a>
           </div>
           <div>
           <p className="footerTag">Healthy, Fast-Casual Food, Crafted with &#x2764; In Bengaluru</p>
