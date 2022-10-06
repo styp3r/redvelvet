@@ -1205,6 +1205,10 @@ a {
     padding: 0.5rem;
   }
 
+  .aboutPageHeaderImg{
+    height: 10rem;
+  }
+
   #platformsSection {
     margin: 30rem 0 0 0;
   }
