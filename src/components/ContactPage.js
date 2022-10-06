@@ -4,9 +4,27 @@ import Map from './Map';
 import MobileFooter from './MobileFooter';
 import LazyLoad from 'react-lazy-load';
 
-function ContactPage() {
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+const ContactPage = () => {
 
     window.scrollTo(0, 0);
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        document.getElementById("messageSuccess").style.display = "block";
+        e.preventDefault();
+
+        emailjs.sendForm('service_na36t7j', 'template_akk2hkk', form.current, 'BPrKaRkebDZqC0Zs3')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+
     return (
         <div id="contactBlock">
             <div className="contactHeader">
@@ -15,7 +33,7 @@ function ContactPage() {
                     <p className="contactHeaderSubText">We love talking to our customers whether it is related to feedback to make our services better suited for you or to discuss any business propositions or collaborations. We're on-board with anything you might have to tell us!</p>
                 </div>
                 <div className="ctRight">
-                    <LazyLoad><img className="contactGirl" src={Girl} alt = "loading..."/></LazyLoad>
+                    <LazyLoad><img className="contactGirl" src={Girl} alt="loading..." /></LazyLoad>
                 </div>
             </div>
             <div className="contactMid">
@@ -34,10 +52,14 @@ function ContactPage() {
                 <div className="pitchUs">
                     <div className="pitchUsText">
                         <h3>Write To Us</h3>
-                        <input className="pitchName" placeholder="Name" type="text" />
-                        <input className="pitchEmail" placeholder="Email" type="email" />
-                        <textarea className="pitchMessage" placeholder="Message" type="text" />
-                        <button className="pitchBtn">Send</button>
+
+                        <form ref={form} onSubmit={sendEmail}>
+                            <input className="pitchName" name="user_name" placeholder="Name" type="text" required/>
+                            <input className="pitchEmail" name="user_email" placeholder="Email" type="email" required/>
+                            <textarea className="pitchMessage" name="message" placeholder="Message" type="text" required/>
+                            <button type="submit" value="Send" className="pitchBtn">Send</button>
+                            <p id = "messageSuccess">Successfully sent! We will get back to you soon!</p>
+                        </form>
                     </div>
                 </div>
             </div>
