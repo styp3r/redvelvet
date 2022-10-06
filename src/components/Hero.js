@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import HeroImg from '../images/Decoration/heroImg.png';
-import Brush from '../images/Decoration/brush.png';
 import LazyLoad from 'react-lazy-load';
 
 function Hero(){
     return (
         <div id = "heroSection">
             <div className = "heroBg">
-            <LazyLoad><img className = "brush" src = {Brush} width = "500" height = "500" /></LazyLoad>
+            {/*<LazyLoad><img className = "brush" src = {Brush} width = "500" height = "500" /></LazyLoad>*/}
                 <div className = "leftHero">
                     <LazyLoad><img className = "heroImgLeft" src = {HeroImg}/></LazyLoad>
                 </div>
