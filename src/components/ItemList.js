@@ -6,7 +6,7 @@ const items = [
         id: 0,
         name: "Milk Mysore Pak",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.milkMysore,
         category: "sweets"
@@ -15,7 +15,7 @@ const items = [
         id: 1,
         name: "Anjeer Box",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.anjeer,
         category: "sweets"
@@ -24,7 +24,7 @@ const items = [
         id: 1,
         name: "Balusah",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.balusah,
         category: "sweets"
@@ -33,7 +33,7 @@ const items = [
         id: 2,
         name: "Besan Laddoo",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.besan,
         category: "sweets"
@@ -42,7 +42,7 @@ const items = [
         id: 3,
         name: "Bombay Halwa",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.bombay,
         category: "sweets"
@@ -51,7 +51,7 @@ const items = [
         id: 4,
         name: "Chamcham",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.cham,
         category: "sweets"
@@ -60,7 +60,7 @@ const items = [
         id: 5,
         name: "Champakali",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.champa,
         category: "sweets"
@@ -69,7 +69,7 @@ const items = [
         id: 6,
         name: "Chandrakala",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.chandrakala,
         category: "sweets"
@@ -78,7 +78,7 @@ const items = [
         id: 7,
         name: "Coconut Laddoo",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.coconut,
         category: "sweets"
@@ -87,7 +87,7 @@ const items = [
         id: 8,
         name: "Dodda Burfi",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.dodda,
         category: "sweets"
@@ -96,7 +96,7 @@ const items = [
         id: 9,
         name: "Dryfruit Besan Laddoo",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.dryBesan,
         category: "sweets"
@@ -105,7 +105,7 @@ const items = [
         id: 10,
         name: "Dryfruit Burfi",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.dryBurfi,
         category: "sweets"
@@ -114,7 +114,7 @@ const items = [
         id: 11,
         name: "Dryfruit Halwa",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.dryHalwa,
         category: "sweets"
@@ -123,7 +123,7 @@ const items = [
         id: 12,
         name: "Fruit Halwa",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.fruit,
         category: "sweets"
@@ -132,7 +132,7 @@ const items = [
         id: 13,
         name: "Jalebi",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.jalebi,
         category: "sweets"
@@ -141,7 +141,7 @@ const items = [
         id: 14,
         name: "Kaju Burfi",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: true,
         img: IMAGES.kaju,
         category: "sweets"
@@ -150,7 +150,7 @@ const items = [
         id: 15,
         name: "Kaju Gujiya",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kajuGujiya,
         category: "sweets"
@@ -159,7 +159,7 @@ const items = [
         id: 16,
         name: "Kaju Roll",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kajuRoll,
         category: "sweets"
@@ -168,7 +168,7 @@ const items = [
         id: 17,
         name: "Kaju Samosa",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kajuSamosa,
         category: "sweets"
@@ -177,7 +177,7 @@ const items = [
         id: 18,
         name: "Kala Jamun",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kala,
         category: "sweets"
@@ -186,7 +186,7 @@ const items = [
         id: 19,
         name: "Kalakand",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kalakand,
         category: "sweets"
@@ -195,7 +195,7 @@ const items = [
         id: 20,
         name: "Kaju Kalash",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kalash,
         category: "sweets"
@@ -204,7 +204,7 @@ const items = [
         id: 21,
         name: "Kesar Laddoo",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kesarLaddoo,
         category: "sweets"
@@ -213,7 +213,7 @@ const items = [
         id: 22,
         name: "Kesar Peda",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kesarPeda,
         category: "sweets"
@@ -222,7 +222,7 @@ const items = [
         id: 23,
         name: "Kheer Kadam",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kheerKadam,
         category: "sweets"
@@ -231,7 +231,7 @@ const items = [
         id: 24,
         name: "Kova Roll",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.kovaRoll,
         category: "sweets"
@@ -240,7 +240,7 @@ const items = [
         id: 25,
         name: "Malai Laddoo",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.malaiLaddoo,
         category: "sweets"
@@ -249,7 +249,7 @@ const items = [
         id: 26,
         name: "Malai Peda",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.malaiPeda,
         category: "sweets"
@@ -258,7 +258,7 @@ const items = [
         id: 27,
         name: "Malai Sandwich",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.malaiSand,
         category: "sweets"
@@ -267,7 +267,7 @@ const items = [
         id: 28,
         name: "Mawa Boondi Roll",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.mawaBoondi,
         category: "sweets"
@@ -276,7 +276,7 @@ const items = [
         id: 29,
         name: "Milk Burfi",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.milkBurfi,
         category: "sweets"
@@ -285,7 +285,7 @@ const items = [
         id: 30,
         name: "Milk Cake",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.milkCake,
         category: "sweets"
@@ -294,7 +294,7 @@ const items = [
         id: 31,
         name: "Milk Peda",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.milkPeda,
         category: "sweets"
@@ -303,7 +303,7 @@ const items = [
         id: 32,
         name: "Milk Roll",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.milkRoll,
         category: "sweets"
@@ -312,7 +312,7 @@ const items = [
         id: 33,
         name: "Moti Pak",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.moti,
         category: "sweets"
@@ -321,7 +321,7 @@ const items = [
         id: 34,
         name: "Motichoor Laddoo",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: true,
         img: IMAGES.motichoorLaddoo,
         category: "sweets"
@@ -330,7 +330,7 @@ const items = [
         id: 35,
         name: "Mysore Pak",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.mysore,
         category: "sweets"
@@ -339,7 +339,7 @@ const items = [
         id: 36,
         name: "Kaju Paan",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.paan,
         category: "sweets"
@@ -348,7 +348,7 @@ const items = [
         id: 37,
         name: "Pinni",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.pinni,
         category: "sweets"
@@ -357,7 +357,7 @@ const items = [
         id: 38,
         name: "Soan Papdi",
          
-        qty: "1 Piece",
+        qty: "250g",
         bestseller: false,
         img: IMAGES.soan,
         category: "sweets"
@@ -368,7 +368,7 @@ const items = [
         id: 39,
         name: "Awalakki Mixture",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.awalakkiMix,
         category: "mixtures"
@@ -377,16 +377,16 @@ const items = [
         id: 40,
         name: "Bombay Mixture",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.bombayMix,
         category: "mixtures"
     },
     {
         id: 41,
-        name: "Boondi Mix",
+        name: "Boondi Mixture",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.boondiMix,
         category: "mixtures"
@@ -395,7 +395,7 @@ const items = [
         id: 42,
         name: "Salted Chips",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.chips,
         category: "mixtures"
@@ -404,7 +404,7 @@ const items = [
         id: 43,
         name: "Dalmot",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.dalmot,
         category: "mixtures"
@@ -413,7 +413,7 @@ const items = [
         id: 44,
         name: "Gathiya",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.gathiya,
         category: "mixtures"
@@ -422,7 +422,7 @@ const items = [
         id: 45,
         name: "Gujarati Papdi",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.gujratiPapdi,
         category: "mixtures"
@@ -431,7 +431,7 @@ const items = [
         id: 46,
         name: "Lahsen Sev",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.lahsen,
         category: "mixtures"
@@ -440,7 +440,7 @@ const items = [
         id: 47,
         name: "Mathri",
          
-        qty: "180gms",
+        qty: "200g",
         bestseller: false,
         img: IMAGES.mathri,
         category: "mixtures"
@@ -449,7 +449,7 @@ const items = [
         id: 48,
         name: "Nimki Plain",
          
-        qty: "180gms",
+        qty: "200g",
         bestseller: false,
         img: IMAGES.nimkiPlain,
         category: "mixtures"
@@ -458,7 +458,7 @@ const items = [
         id: 49,
         name: "Palak Sev",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.palakSev,
         category: "mixtures"
@@ -467,7 +467,7 @@ const items = [
         id: 50,
         name: "Plain Sev",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.plainSev,
         category: "mixtures"
@@ -476,7 +476,7 @@ const items = [
         id: 51,
         name: "Sakarpala",
          
-        qty: "180gms",
+        qty: "200g",
         bestseller: false,
         img: IMAGES.sakarpala,
         category: "mixtures"
@@ -485,7 +485,7 @@ const items = [
         id: 52,
         name: "Sohali",
          
-        qty: "180gms",
+        qty: "200g",
         bestseller: false,
         img: IMAGES.sohali,
         category: "mixtures"
@@ -494,7 +494,7 @@ const items = [
         id: 53,
         name: "Masala Chips",
          
-        qty: "180gms",
+        qty: "180g",
         bestseller: false,
         img: IMAGES.spicy,
         category: "mixtures"
@@ -649,7 +649,7 @@ const items = [
     },
     {
         id: 70,
-        name: "Cutlet Vada Pav",
+        name: "Cutlet Pav",
          
         qty: "1 Piece",
         bestseller: false,
@@ -658,7 +658,7 @@ const items = [
     },
     {
         id: 71,
-        name: "Tikkiya Vada Pav",
+        name: "Tikkiya Pav",
          
         qty: "1 Piece",
         bestseller: false,
@@ -667,7 +667,7 @@ const items = [
     },
     {
         id: 72,
-        name: "Samosa Vada Pav",
+        name: "Samosa Pav",
          
         qty: "1 Piece",
         bestseller: false,
@@ -678,7 +678,7 @@ const items = [
         id: 73,
         name: "Pani Puri",
          
-        qty: "6 Pieces",
+        qty: "6(+1)Pieces",
         bestseller: true,
         img: IMAGES.paniPuri,
         category: "snacks"
@@ -687,9 +687,9 @@ const items = [
     //Parathas
     {
         id: 74,
-        name: "Ajwain Paratha with Raita",
+        name: "Ajwain Paratha with Aloo Gravy & Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.ajwain,
         category: "parathas"
@@ -698,25 +698,25 @@ const items = [
         id: 75,
         name: "Aloo Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.aloo,
         category: "parathas"
     },
     {
         id: 76,
-        name: "Chapathi with Chole",
+        name: "Chapathi with Punjabi Chole",
          
-        qty: "1 Piece",
+        qty: "2 Pieces",
         bestseller: false,
         img: IMAGES.chapChole,
         category: "parathas"
     },
     {
         id: 77,
-        name: "Chapathi with Gobi Subzi",
+        name: "Chapathi with Aloo Gobi Subzi",
          
-        qty: "1 Piece",
+        qty: "2 Pieces",
         bestseller: false,
         img: IMAGES.chapGobi,
         category: "parathas"
@@ -725,7 +725,7 @@ const items = [
         id: 78,
         name: "Chapathi with Paneer Gravy",
          
-        qty: "1 Piece",
+        qty: "2 Pieces",
         bestseller: false,
         img: IMAGES.chapPaneer,
         category: "parathas"
@@ -734,7 +734,7 @@ const items = [
         id: 79,
         name: "Gobi Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.gobi,
         category: "parathas"
@@ -743,16 +743,16 @@ const items = [
         id: 80,
         name: "Green Peas Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.greenPeas,
         category: "parathas"
     },
     {
         id: 81,
-        name: "Laccha Paratha with Raita",
+        name: "Laccha Paratha with Aloo Gravy & Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.laccha,
         category: "parathas"
@@ -761,16 +761,16 @@ const items = [
         id: 82,
         name: "Methi Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.methi,
         category: "parathas"
     },
     {
         id: 83,
-        name: "Methi Paratha with Aloo Gravy",
+        name: "Methi Paratha with Aloo Gravy & Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.methiAlooGravy,
         category: "parathas"
@@ -779,7 +779,7 @@ const items = [
         id: 84,
         name: "Mixed Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.mixed,
         category: "parathas"
@@ -788,7 +788,7 @@ const items = [
         id: 85,
         name: "Mooli Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.mooli,
         category: "parathas"
@@ -797,7 +797,7 @@ const items = [
         id: 86,
         name: "Onion Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.onion,
         category: "parathas"
@@ -806,16 +806,16 @@ const items = [
         id: 87,
         name: "Onion Cheese Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.onionCheese,
         category: "parathas"
     },
     {
         id: 88,
-        name: "Palak Paratha with Aloo Gravy",
+        name: "Palak Paratha with Aloo Gravy & Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.palakAlooGravy,
         category: "parathas"
@@ -824,7 +824,7 @@ const items = [
         id: 89,
         name: "Paneer Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.paneer,
         category: "parathas"
@@ -833,16 +833,16 @@ const items = [
         id: 90,
         name: "Paneer Cheese Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.paneerCheese,
         category: "parathas"
     },
     {
         id: 91,
-        name: "Paratha with Chole",
+        name: "Paratha with Punjabi Chole",
          
-        qty: "1 Piece",
+        qty: "2 Pieces",
         bestseller: false,
         img: IMAGES.parChole,
         category: "parathas"
@@ -851,7 +851,7 @@ const items = [
         id: 92,
         name: "Paratha with Gobi Subzi",
          
-        qty: "1 Piece",
+        qty: "2 Pieces",
         bestseller: false,
         img: IMAGES.parGobi,
         category: "parathas"
@@ -860,16 +860,16 @@ const items = [
         id: 93,
         name: "Paratha with Paneer Gravy",
          
-        qty: "1 Piece",
+        qty: "2 Pieces",
         bestseller: false,
         img: IMAGES.parPaneer,
         category: "parathas"
     },
     {
         id: 94,
-        name: "Pudina Paratha with Aloo Gravy",
+        name: "Pudina Paratha with Aloo Gravy & Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.pudinaAlooGravy,
         category: "parathas"
@@ -878,7 +878,7 @@ const items = [
         id: 95,
         name: "Puri with Chole",
          
-        qty: "3 Piece",
+        qty: "3 Pieces",
         bestseller: false,
         img: IMAGES.puriChole,
         category: "parathas"
@@ -887,7 +887,7 @@ const items = [
         id: 96,
         name: "Puri with Gobi Subzi",
          
-        qty: "3 Piece",
+        qty: "3 Pieces",
         bestseller: false,
         img: IMAGES.puriGobi,
         category: "parathas"
@@ -896,7 +896,7 @@ const items = [
         id: 97,
         name: "Puri with Paneer Gravy",
          
-        qty: "3 Piece",
+        qty: "3 Pieces",
         bestseller: false,
         img: IMAGES.puriPaneer,
         category: "parathas"
@@ -905,7 +905,7 @@ const items = [
         id: 98,
         name: "Sattu Paratha with Raita",
          
-        qty: "1 Piece",
+        qty: "1 Plate",
         bestseller: false,
         img: IMAGES.sattu,
         category: "parathas"
