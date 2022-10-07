@@ -1067,6 +1067,18 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+
+  #branchesPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #branchBox{
+    width: 80%;
+  }
+
   .heroBg {
     width: 100%;
     height: 40rem;
