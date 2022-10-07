@@ -2,10 +2,7 @@
 
 This project was created by Navjyot Jaiswal aka Styp3r for the company Xyka Hotels India Pvt. Ltd.
 For the brand 'Laddoos' under the above mentioned company.
-
-### My LinkedIn 
-
-(https://www.linkedin.com/in/styp3r/)
+Here's my LinkedIn Profile : @[Styp3r](https://www.linkedin.com/in/styp3r/)
 
 # Getting Started with Create React App
 
