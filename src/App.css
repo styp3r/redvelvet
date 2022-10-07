@@ -1066,7 +1066,7 @@ a {
   object-fit: cover;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
 
   #branchesPage {
     display: flex;
@@ -1076,7 +1076,7 @@ a {
   }
 
   #branchBox{
-    width: 80%;
+    width: 20rem;
   }
 
   .heroBg {
