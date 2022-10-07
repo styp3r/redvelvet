@@ -18,6 +18,7 @@ function Navbar(){
                 <Link to = "/"><p className = "homeLink">Home</p></Link>
                     <Link to = "products"><p className = "productsLink">Menu</p></Link>
                     <Link to = "about"><p className = "aboutLink">About</p></Link>
+                    <Link to = "branches"><p className = "branchesLink">Branches</p></Link>
                     <Link to = "contact"><p className = "contactLink">Contact</p></Link>
                 </div>
             </div>

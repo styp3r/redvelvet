@@ -10,7 +10,7 @@ function Map() {
                 />
                 <Marker position={[12.967778739816191, 77.65306186885338]}>
                     <Popup>
-                        Laddoos - Jeevan Bima Nagar <br /> Phone: 93809 70276
+                        Laddoos - Jeevan Bima Nagar <br /> Phone: +91 93809 70276
                     </Popup>
                 </Marker>
                 <Marker position={[12.928078916305939, 77.67641032214665]}>

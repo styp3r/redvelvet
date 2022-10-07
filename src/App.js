@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import ProductsPage from './components/ProductsPage';
 import AboutPage from './components/AboutPage';
+import BranchesPage from './components/BranchesPage';
 import ContactPage from './components/ContactPage';
 import Fb from './images/Decoration/facebook.png';
 import In from './images/Decoration/instagram.png';
@@ -34,6 +35,7 @@ function App() {
           <a aria-label = "redirects user to home page" href={'/'}><p className="dLink">Home</p></a>
           <a aria-label = "redirects user to products page" href={'/products'}><p className="dLink">Menu</p></a>
           <a aria-label = "redirects user to about page" href={'/about'}><p className="dLink">About Us</p></a>
+          <a aria-label = "redirects user to branches page" href={'/branches'}><p className="dLink">Branches</p></a>
           <a aria-label = "redirects user to contact page" href={'/contact'}><p className="dLink">Contact Us</p></a>
 
           <div className="social">
@@ -55,6 +57,7 @@ function App() {
             <Route path="home" element={<Home />}></Route>
             <Route path="products" element={<ProductsPage />}></Route>
             <Route path="about" element={<AboutPage />}></Route>
+            <Route path="branches" element={<BranchesPage />}></Route>
             <Route path="contact" element={<ContactPage />}></Route>
           </Routes>
         </div>

@@ -37,23 +37,6 @@ const AboutPage = () => {
                     <p className="aboutText">Being in the food and beverages business for over a decade, we started with just one shop in 1998. Serving only the freshest that human hands can make, we are honoured to provide the people of Bengaluru with the best collection of Sweets, Chaats, Snacks and Parathas along with a few classical beverages.</p>
                     <p className="aboutText">We understand the fundamental human emotion behind tasting good food and strive to provide the most memorable experience for your taste buds, turning fresh ingredients into juicy and masala laden crispy food that would leave you craving for more!</p>
                 </div>
-
-                <div className="officeAddress">
-                    <div className="officeAddressText">
-                        <h4>Our Branches</h4>
-                        <ul>
-                            <li>Jeevan Bima Nagar</li>
-                            <li>BTM</li>
-                            <li>Electronic City</li>
-                            <li>Varthur</li>
-                            <li>Munekkollal</li>
-                            <li>Doddanekundi</li>
-                            <li>Horamavu</li>
-                            <li>Bellandur</li>
-                            <li>Kasturinagar</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
 
             <div className="aboutPageStats">
