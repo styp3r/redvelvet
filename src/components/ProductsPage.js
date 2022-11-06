@@ -10,7 +10,7 @@ function ProductsPage() {
     const [currentItem, setcurrentItem] = useState("sweets");
 
     function dispItems(item) {
-        return <ProductBox current={currentItem} key={item.id} img={item.img} price={item.price} name={item.name} qty={item.qty} category={item.category} />
+        return <ProductBox current={currentItem} key={item.id} id = {item.id} img={item.img} price={item.price} name={item.name} qty={item.qty} category={item.category} desc = {item.desc} />
     }
 
     function handleClick(event) {

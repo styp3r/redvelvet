@@ -652,8 +652,9 @@ a {
 }
 
 #productBox {
-  width: 12.5rem;
-  height: 14.5rem;
+  width: 20rem;
+  height: 11rem;
+  position: relative;
   overflow: hidden;
   box-shadow: 0 3px 12px 0.1px #adadad;
   border-radius: 1rem;
@@ -662,14 +663,21 @@ a {
   text-align: left;
 }
 
+.productBoxContainer{
+  display: flex;
+}
+
 .itemBoxText {
-  margin: -1rem 0 0 1.5rem;
+  margin: -1rem 0 0 0.5rem;
 }
 
 .itemBoxImg {
-  width: 100%;
-  height: 100%;
+  width: 8rem;
+  height: 8rem;
   object-fit: cover;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: inline-block;
 }
 
 .itemBoxQty {
@@ -678,7 +686,49 @@ a {
 }
 
 .itemBoxName {
-  margin: 2rem 1rem 0 0;
+  margin: 2rem 0 0 0;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.itemBoxDesc{
+  color: #565656;
+  padding: 0 0.4rem 0 0;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.descModalContainer{
+  position: absolute;
+  overflow-y: scroll;
+  display: none;
+  width: 20rem;
+  height: 11rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+.descModal{
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.closeDescBtn{
+  margin: 1rem 0 0 1rem;
+  display: inline-block;
+  color: #ff3333;
+}
+
+.closeDescBtn:hover{
+  cursor: pointer;
+}
+
+.readMore{
+  color: #a3a2a2;
+  margin: 0;
+  color: #ff3333;
+}
+
+.readMore:hover{
+  cursor: pointer;
 }
 
 .categoryPane {
@@ -803,7 +853,6 @@ a {
   text-align: right;
   display: flex;
   padding: 5rem 0 0 0;
-  background: linear-gradient(90deg, #ff0000, #ff8080);
 }
 
 .ctLeft,
@@ -813,7 +862,7 @@ a {
 
 .contactHeaderText {
   position: absolute;
-  color: #ffffff;
+  color: #ff0000;
   margin: 5rem 0 0 10rem;
   font-family: 'Pacifico', cursive;
   font-size: 3rem;
@@ -823,12 +872,12 @@ a {
   text-align: left;
   width: 30rem;
   position: absolute;
-  color: #ffffff;
+  color: #ff8080;
   margin: 12rem 0 0 10rem;
 }
 
 .contactGirl {
-  width: 22rem;
+  width: 30rem;
   height: 30rem;
   margin: 0 10rem 0 0;
 }
@@ -840,7 +889,7 @@ a {
 .meetUs {
   width: 32rem;
   height: 34rem;
-  background-color: #3d3d3d;
+  background-color: #fa2222;
   text-align: left;
   display: flex;
   justify-content: center;
@@ -856,7 +905,7 @@ a {
 .pitchUs {
   width: 34rem;
   height: 34rem;
-  background-color: #e7e5e5;
+  background-color: #fff7f7;
   text-align: left;
   display: flex;
   justify-content: center;
@@ -870,7 +919,6 @@ a {
 .phoneIcon,
 .mailIcon,
 .locIcon {
-  color: #ee5757;
   float: left;
   margin: 0 1rem 0 0;
 }
@@ -881,7 +929,7 @@ a {
   height: 2rem;
   display: block;
   margin: 0.5rem 0 0.5rem 0;
-  border: none;
+  border: solid 1px #d4d3d3;
   border-radius: 0.5rem;
   padding: 0 0 0 0.5rem;
 }
@@ -891,7 +939,7 @@ a {
   height: 5rem;
   display: block;
   margin: 1rem 0 1rem 0;
-  border: none;
+  border: solid 1px #d4d3d3;
   border-radius: 0.5rem;
   resize: none;
   padding: 0.2rem 0 0 0.5rem;
@@ -902,7 +950,7 @@ a {
   border: none;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 1rem;
-  background-color: #fc6262;
+  background-color: #fa2222;
 }
 
 .pitchBtn:hover {
@@ -1404,7 +1452,6 @@ a {
 
   .contactGirl {
     margin: 23rem 0 0 0;
-    ;
     left: 0;
   }
 
@@ -1548,4 +1595,5 @@ a {
 
 .is-visible {
   opacity: 1;
+  width: 8rem;
 }

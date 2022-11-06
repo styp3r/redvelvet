@@ -1,4 +1,4 @@
-import Girl from '../images/Decoration/contactGirl.png';
+import Girl from '../images/Decoration/contactGirl.jpg';
 import Footer from '../components/Footer';
 import Map from './Map';
 import MobileFooter from './MobileFooter';
@@ -47,6 +47,7 @@ const ContactPage = () => {
                         <h3>Contact Us</h3>
                         <p className="space"><span class="material-symbols-outlined phoneIcon">call</span> +91 99452 58005</p>
                         <p className="space"><span class="material-symbols-outlined mailIcon">mail</span> laddoos@ymail.com</p>
+                        <p className="space"><span class="material-symbols-outlined mailIcon">mail</span> sachin@xykahotels.com</p>
                     </div>
                 </div>
                 <div className="pitchUs">
