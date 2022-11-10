@@ -185,6 +185,20 @@ a {
 .leftHero {
   width: 45%;
   height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vidContainer{
+  width: 25rem;
+  height: 30rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+video{
+  object-fit: cover;
 }
 
 .rightHero {

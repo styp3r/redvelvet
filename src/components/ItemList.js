@@ -544,7 +544,7 @@ const items = [
         name: "Chole Bhature",
         desc: "The most popular delhi street food served with punjabi chole, it comes with 2 pieces of bhatura.",
         qty: "1 Plate",
-        bestseller: true,
+        bestseller: false,
         img: IMAGES.bhature,
         category: "snacks"
     },
@@ -571,7 +571,7 @@ const items = [
         name: "Paneer Chole Bhature",
         desc: "Hot bhatura served with power packed paneer chole, it comes with 2 pieces of bhatura.",
         qty: "1 Plate",
-        bestseller: false,
+        bestseller: true,
         img: IMAGES.paneerBhature,
         category: "snacks"
     },
