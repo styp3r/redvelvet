@@ -2,7 +2,7 @@ import LazyLoad from 'react-lazy-load';
 
 function ProductBox(props) {
 
-    let itemDescription = props.desc.slice(0, 75);
+    let itemDescription = props.desc.slice(0, 60);
 
     function handleReadMoreBtn() {
         document.getElementById(props.id).style.display = "block";

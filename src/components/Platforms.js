@@ -8,7 +8,7 @@ function Platforms() {
         <div id="platformsSection">
             <div className="platformsBlocks">
                 <div className="platLeft">
-                    <LazyLoad><img className="orderArt" src={OnlineOrder} alt="Loading..." /></LazyLoad>
+                    <img className="orderArt" src={OnlineOrder} alt="Loading..." />
                 </div>
                 <div className="platRight">
                     <div className="platContent">
