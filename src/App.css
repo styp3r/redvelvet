@@ -190,7 +190,7 @@ a {
   align-items: center;
 }
 
-.vidContainer{
+.vidContainer {
   position: relative;
   width: 25rem;
   height: 25rem;
@@ -198,7 +198,7 @@ a {
   overflow: hidden;
 }
 
-video{
+video {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -664,11 +664,6 @@ video{
   margin: 0 0 0 5rem;
 }
 
-.prodTitle {
-  margin: 2rem 0 0 4rem;
-  position: relative;
-}
-
 #productBox {
   width: 20.5rem;
   height: 12rem;
@@ -681,7 +676,7 @@ video{
   text-align: left;
 }
 
-.productBoxContainer{
+.productBoxContainer {
   display: flex;
 }
 
@@ -709,13 +704,13 @@ video{
   font-weight: 500;
 }
 
-.itemBoxDesc{
+.itemBoxDesc {
   color: #565656;
   padding: 0 0.4rem 0 0;
   margin: 0.5rem 0 0.5rem 0;
 }
 
-.descModalContainer{
+.descModalContainer {
   position: absolute;
   overflow-y: scroll;
   display: none;
@@ -725,27 +720,27 @@ video{
   border-radius: 1rem;
 }
 
-.descModal{
+.descModal {
   padding: 1rem 2rem 2rem 2rem;
 }
 
-.closeDescBtn{
+.closeDescBtn {
   margin: 1rem 0 0 1rem;
   display: inline-block;
   color: #ff3333;
 }
 
-.closeDescBtn:hover{
+.closeDescBtn:hover {
   cursor: pointer;
 }
 
-.readMore{
+.readMore {
   color: #a3a2a2;
   margin: 0;
   color: #ff3333;
 }
 
-.readMore:hover{
+.readMore:hover {
   cursor: pointer;
 }
 
@@ -777,6 +772,8 @@ video{
 }
 
 .aboutTextSection {
+  position: absolute;
+  top: 35rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -802,7 +799,7 @@ video{
   background-color: #ffffff;
   border-radius: 2rem;
   margin: 3rem 0 0 0;
-  box-shadow: 0 3px 12px 0.1px #d2d2d2;
+  box-shadow: 0 3px 12px 0.1px #dbd9d9;
 }
 
 .aboutText {
@@ -810,6 +807,14 @@ video{
   width: 30rem;
   text-align: left;
   margin: 2rem 5rem 0 0;
+}
+
+.aboutHeaderText {
+  z-index: 1;
+  width: 30rem;
+  text-align: left;
+  margin: 2rem 5rem 0 0;
+  color: #fa2222;
 }
 
 .condiments {
@@ -824,7 +829,7 @@ video{
   width: 100%;
   height: 30rem;
   background-color: #e3e3e3;
-  margin: 5rem 0 10rem 0;
+  margin: 40rem 0 10rem 0;
   display: flex;
 }
 
@@ -894,7 +899,7 @@ video{
   margin: 12rem 0 0 10rem;
 }
 
-.contactGirl {
+.contactImg {
   width: 30rem;
   height: 30rem;
   margin: 0 10rem 0 0;
@@ -1021,7 +1026,7 @@ video{
 .aboutPageHeaderImg {
   object-fit: cover;
   width: 100%;
-  height: 20rem;
+  height: 35rem;
 }
 
 .subscribe {
@@ -1133,6 +1138,10 @@ video{
   border: solid 1px #d2d2d2;
 }
 
+.addRedHeading {
+  color: #ff0000;
+}
+
 @media only screen and (max-width: 820px) {
 
   #branchesPage {
@@ -1142,13 +1151,13 @@ video{
     align-items: center;
   }
 
-  #branchBox{
+  #branchBox {
     width: 18rem;
   }
 
   .heroBg {
     width: 100%;
-    height: 40rem;
+    height: 45rem;
     background: linear-gradient(90deg, #ff0000, #ff8080);
     display: flex;
     flex-direction: column;
@@ -1162,6 +1171,15 @@ video{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .vidContainer {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 5rem 0 0 0;
   }
 
   .brush {
@@ -1392,8 +1410,8 @@ video{
   }
 
   #productBox {
-    width: 13.5rem;
-    height: 15rem;
+    width: 20rem;
+    height: 12rem;
   }
 
   .mbCat {
@@ -1410,19 +1428,20 @@ video{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 35rem;
+    height: 5rem;
   }
 
   .aboutText {
     width: 15rem;
     height: 100%;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem 0 0 0;
   }
 
   .aboutTextLeft {
     width: 20rem;
     height: 30rem;
+    padding: 0 0 1rem 0;
   }
 
   .aboutPageStats {
@@ -1459,8 +1478,8 @@ video{
 
   .contactHeader {
     display: flex;
-    height: 53rem;
     flex-direction: column;
+    height: 20rem;
   }
 
   .contactMid {
@@ -1468,9 +1487,8 @@ video{
     flex-direction: column;
   }
 
-  .contactGirl {
-    margin: 23rem 0 0 0;
-    left: 0;
+  .contactImg {
+    display: none;
   }
 
   .contactHeaderText {

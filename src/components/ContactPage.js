@@ -1,4 +1,4 @@
-import Girl from '../images/Decoration/contactGirl.jpg';
+import Girl from '../images/Decoration/contactImg.jpg';
 import Footer from '../components/Footer';
 import Map from './Map';
 import MobileFooter from './MobileFooter';
@@ -33,7 +33,7 @@ const ContactPage = () => {
                     <p className="contactHeaderSubText">We love talking to our customers whether it is related to feedback to make our services better suited for you or to discuss any business propositions or collaborations. We're on-board with anything you might have to tell us!</p>
                 </div>
                 <div className="ctRight">
-                    <LazyLoad><img className="contactGirl" src={Girl} alt="loading..." /></LazyLoad>
+                    <LazyLoad><img className="contactImg" src={Girl} alt="loading..." /></LazyLoad>
                 </div>
             </div>
             <div className="contactMid">
