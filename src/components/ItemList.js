@@ -122,7 +122,7 @@ const items = [
     {
         id: 12,
         name: "Fruit Halwa",
-        desc: "",
+        desc: "The delicious fruit halwas are packed with healthy figs, fruits and dates. Essentially, they are Dryfruit Halwas without the dry fruits.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.fruit,
@@ -194,7 +194,7 @@ const items = [
     {
         id: 20,
         name: "Kaju Kalash",
-        desc: "",
+        desc: "This unique cashewnut sweet is filled with dry fruits topped with pista and comes in the shape of a 'kalash' or a pitcher which is usually used in Indian rituals.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.kalash,
@@ -230,7 +230,7 @@ const items = [
     {
         id: 24,
         name: "Kova Roll",
-        desc: "",
+        desc: "A cylindrical shaped Indian sweet prepared from Kova. Another variation of mawa peda which resembles a Swiss roll and is attractive to serve for any festive season like Diwali, Holi & Dusshera.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.kovaRoll,
@@ -275,7 +275,7 @@ const items = [
     {
         id: 29,
         name: "Milk Burfi",
-        desc: "",
+        desc: "Milk Burfi is a delightfully sweet fudge-like confection and made traditionally with khoya (dried milk solids), sugar, nuts and fragrant spices in the shape of a kaju burfi.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.milkBurfi,
@@ -760,7 +760,7 @@ const items = [
     {
         id: 82,
         name: "Methi Paratha with Raita",
-        desc: "",
+        desc: "The pan fried flat bread made with freshly chopped fenugreek leaves and some regular spices for flavour. This vitamin and beta carotene rich paratha is served with raita.",
         qty: "1 Plate",
         bestseller: false,
         img: IMAGES.methi,
