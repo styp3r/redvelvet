@@ -674,6 +674,7 @@ video {
   display: inline-block;
   margin: 1.5rem;
   text-align: left;
+  padding: 0.2rem;
 }
 
 .productBoxContainer {
