@@ -9,7 +9,7 @@ function Hero() {
                 <div className="leftHero">
                     {/*<LazyLoad><img className = "heroImgLeft" src = {HeroImg} alt = "loading..."/></LazyLoad>*/}
                     <div className = "vidContainer">
-                        <video className = "video" width="420" height="540" autoPlay loop muted>
+                        <video title = "Loading Video..." className = "video" width="420" height="540" autoPlay loop muted>
                             <source src={HeroVid} type="video/mp4"></source>
                             Your browser does not support the video format.
                         </video>
