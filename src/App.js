@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useEffect, useState } from "react";
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import ProductsPage from './components/ProductsPage';
@@ -19,6 +20,14 @@ import {
 
 function App() {
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4500);
+  }, []);
+
   document.title = "Laddoos Sweets";
 
   function handleCloseBurger() {
@@ -26,6 +35,7 @@ function App() {
   }
 
   return (
+    <div>{loading ? "Loading sweetness..." : 
     <div id="app-overlay">
       <div id="navDrawer">
         <div className="closeDrawerBtn" onClick={handleCloseBurger}>
@@ -62,7 +72,7 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
-    </div>
+    </div>}</div>
   );
 }
 
