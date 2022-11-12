@@ -5,7 +5,7 @@ const items = [
         //Sweets
         id: 300,
         name: "Milk Mysore Pak",
-        desc: "",
+        desc: "A soft and melt-in-mouth sweet is a variation of the traditional Mysore Pak. It is prepared with milk powder and gram flower whisked continuously with hot sugar syrup. This amazing buttery texture is popular in South India.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.milkMysore,
@@ -14,7 +14,7 @@ const items = [
     {
         id: 0,
         name: "Anjeer Box",
-        desc: "",
+        desc: "Freshly prepared with dried figs, rolled and shaped into tiny boxes, this lavish indulgence is enjoyed at different occasions. Nutritious values of Anjeer and the soothing aroma of cardamom is the perfect mix to enhance your taste buds in a sweet way.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.anjeer,
@@ -41,7 +41,7 @@ const items = [
     {
         id: 3,
         name: "Bombay Halwa",
-        desc: "Bombay Halwa is a very popular Indian sweet dish made from Cornflour, Sugar and Water; flavoured with cardamom and ghee. The special characteristic of Bombay Halwa, is that it is soft and chewy. The texture is smooth, crunchiness given by the nuts present in it.",
+        desc: "Bombay Halwa is a very popular Indian sweet dish made from Cornflour, Sugar and Water, flavoured with cardamom and ghee. The special characteristic of Bombay Halwa, is that it is soft and chewy. The texture is smooth, crunchiness given by the nuts present in it.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.bombay,
@@ -77,7 +77,7 @@ const items = [
     {
         id: 7,
         name: "Coconut Laddoo",
-        desc: "With the chewy texture of coconut, the rich flavour of roasted gram flour, these laddus are a must have",
+        desc: "With the chewy texture of coconut, the rich flavour of roasted gram flour, these laddoos are a must have",
         qty: "250g",
         bestseller: false,
         img: IMAGES.coconut,
@@ -104,7 +104,7 @@ const items = [
     {
         id: 10,
         name: "Dryfruit Burfi",
-        desc: "The delicious dry fruit barfis are packed with healthy figs, dates, pistachios, almonds, cashew and walnuts.",
+        desc: "The delicious dry fruit burfis are packed with healthy figs, dates, pistachios, almonds, cashew and walnuts.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.dryBurfi,
@@ -203,7 +203,7 @@ const items = [
     {
         id: 21,
         name: "Kesar Laddoo",
-        desc: "Motichoor Laddu is a round-shaped sweet made from fine, tiny balls of besan. The chickpea flour globules is fried in ghee or oil, and soaked in sugar syrup. The sweet, pearl-like balls are then moulded into ladoos. This version consists of kesar or saffron.",
+        desc: "Kesar Motichoor Laddoo is a round-shaped sweet made from fine, tiny balls of besan. The chickpea flour globules is fried in ghee or oil, and soaked in sugar syrup. The sweet, pearl-like balls are then moulded into laddoos. This version consists of kesar or saffron.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.kesarLaddoo,
@@ -229,8 +229,8 @@ const items = [
     },
     {
         id: 24,
-        name: "Kova Roll",
-        desc: "A cylindrical shaped Indian sweet prepared from Kova. Another variation of mawa peda which resembles a Swiss roll and is attractive to serve for any festive season like Diwali, Holi & Dusshera.",
+        name: "Khova Roll",
+        desc: "A cylindrical shaped Indian sweet prepared from Khova. Another variation of mawa peda which resembles a Swiss roll and is attractive to serve for any festive season like Diwali, Holi & Dusshera.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.kovaRoll,
@@ -302,7 +302,7 @@ const items = [
     {
         id: 32,
         name: "Milk Roll",
-        desc: "",
+        desc: "Milk Roll is a famous south Indian sweet made with all-purpose flour and milk which is then rolled, topped with almonds.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.milkRoll,
@@ -311,7 +311,7 @@ const items = [
     {
         id: 33,
         name: "Moti Pak",
-        desc: "Moti Pak is a delicious sweet burfi made with chickpea flour (besan) and sugar. It tastes more like a laddu but it has khoya in it which makes it rich and special.",
+        desc: "Moti Pak is a delicious sweet burfi made with chickpea flour (besan) and sugar. It tastes more like a laddoo but it has khoya in it which makes it rich and special.",
         qty: "250g",
         bestseller: false,
         img: IMAGES.moti,
@@ -522,7 +522,7 @@ const items = [
     {
         id: 56,
         name: "Mango Lassi",
-        desc: "Mango Lassi is another popular version that has sweet mangoes blended with yogurt.",
+        desc: "Mango Lassi is another popular version that has sweet mangoes blended with yoghurt.",
         qty: "200ml",
         bestseller: false,
         img: IMAGES.mango,
@@ -778,7 +778,7 @@ const items = [
     {
         id: 84,
         name: "Mixed Paratha with Raita",
-        desc: "These flat breads come with the goodness of seasonal vegetables and a dash of everyday spices powder.a healthy and a satiating meal ",
+        desc: "These flat breads come with the goodness of seasonal vegetables and a dash of everyday spices powder. A healthy and a satiating meal ",
         qty: "1 Plate",
         bestseller: false,
         img: IMAGES.mixed,
@@ -904,7 +904,7 @@ const items = [
     {
         id: 98,
         name: "Sattu Paratha with Raita",
-        desc: "This  popular dish from bihar is high in protein and fibre. The flat bread is stuffed with powdered roasted chana dal, spices, and a few drops of mustard oil for flavour.this is shallow fried and relished with raita",
+        desc: "This  popular dish from bihar is high in protein and fibre. The flat bread is stuffed with powdered roasted chana dal, spices, and a few drops of mustard oil for flavour. This is shallow fried and relished with raita",
         qty: "1 Plate",
         bestseller: false,
         img: IMAGES.sattu,

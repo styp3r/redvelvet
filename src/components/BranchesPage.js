@@ -1,5 +1,7 @@
 import BranchList from './BranchList';
 import BranchBox from './BranchBox';
+import Footer from './Footer';
+import MobileFooter from './MobileFooter';
 
 function BranchesPage() {
 
@@ -13,6 +15,9 @@ function BranchesPage() {
         <div id = "branchesPage">
             <h1>Our Branches</h1>
             {BranchList.map(dispBranch)}
+
+            <Footer />
+            <MobileFooter />
         </div>
     );
 }
